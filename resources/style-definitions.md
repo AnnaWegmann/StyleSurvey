@@ -37,3 +37,7 @@ If too much work to add here, feel free to use [this google doc]()
 https://news.lmarena.ai/style-control/)
 
 ![chatbot-arena_style-control](images/chatbot-arena_style-control.png)
+
+
+- **Disentangling Style Factors from Speaker Representations** [Williams et al. 2021](https://www.pure.ed.ac.uk/ws/portalfiles/portal/369352486/williams19c_interspeech.pdf)
+    "This paper adopts a working definition of style to be: how speakers adapt their speaking manner according to the speaking context. In this work we investigate four categories of speaking style: spontaneous conversation, goal-directed interaction, retold passage, and read passage. In separate experiments on other data, we also explore four basic categories of emotion: angry, happy, sad, and neutral."
