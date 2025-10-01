@@ -10,6 +10,7 @@
 
 # Python Tools for Stylometry
 
+LIWC: https://www.liwc.app/  
 NeuroBiber: https://github.com/davidjurgens/biberplus   
 LFTK: https://github.com/brucewlee/lftk  
 SpeakerStylo (for speakers in speech transcripts): https://github.com/caggazzotti/speakerStylo  
