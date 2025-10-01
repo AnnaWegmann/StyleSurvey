@@ -13,7 +13,7 @@
 LIWC: https://www.liwc.app/  
 NeuroBiber: https://github.com/davidjurgens/biberplus   
 LFTK: https://github.com/brucewlee/lftk  
-SpeakerStylo (for speakers in speech transcripts): https://github.com/caggazzotti/speakerStylo  
+StyloSpeaker (for speakers in speech transcripts): https://github.com/caggazzotti/styloSpeaker   
 Writeprints (plus a little more): https://github.com/janithnw/pan2020_authorship_verification  
 Style change detection:  
   - [Strom 2021](https://github.com/eivistr/pan21-style-change-detection-stacking-ensemble)  
