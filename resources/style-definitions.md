@@ -1,4 +1,4 @@
-If too much work to add here, feel free to use [this google doc]()
+If too much work to add here, feel free to use [this google doc](https://docs.google.com/document/d/1tivKXEYjWe2pOe6xe4t2LQPZmn_cSsLsae0riU2VBCE/edit?tab=t.0#heading=h.deietoojezvo)
 
 [DRESSing Up LLM: Efficient Stylized Question-Answering via Style Subspace Editing](https://arxiv.org/abs/2501.14371)
 
