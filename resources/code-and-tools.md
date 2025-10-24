@@ -14,8 +14,8 @@ LIWC: https://www.liwc.app/
 NeuroBiber: https://github.com/davidjurgens/biberplus   
 LFTK: https://github.com/brucewlee/lftk  
 StyloSpeaker (for speakers in speech transcripts): https://github.com/caggazzotti/styloSpeaker   
-Writeprints (plus a little more): https://github.com/janithnw/pan2020_authorship_verification  
-Style change detection:  
+Writeprints (plus a little more for PAN authorship verificaiton): https://github.com/janithnw/pan2020_authorship_verification  
+PAN style change detection:  
   - [Strom 2021](https://github.com/eivistr/pan21-style-change-detection-stacking-ensemble)  
   - [Zuo et al. 2019](https://github.com/chzuo/PAN_2019)  
   - [Zlatkova et al. 2018](https://github.com/machinelearning-su/style-change-detection)  
@@ -24,6 +24,7 @@ Style change detection:
 
 Stylo (R): https://github.com/computationalstylistics/stylo  
 JStylo (Java): https://github.com/psal/jstylo  
+Coh-Metrix (for text cohesion and readability): https://soletlab.asu.edu/coh-metrix/   
 Signature: https://www.philocomp.net/texts/signature.htm  
 
 
