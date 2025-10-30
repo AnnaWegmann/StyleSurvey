@@ -34,3 +34,12 @@ Signature [Millican, 2003](https://www.philocomp.net/texts/signature.htm)
 
 Multilingual Stylometry (Python and R) [Schöch et al., 2024](https://gitlab.clsinfra.io/cls-infra/d33)  
 
+# Automatically Learned Representations
+
+## Huggingface Models
+
+- [CISR](https://huggingface.co/AnnaWegmann/Style-Embedding) 
+- [StyleDistance](https://huggingface.co/StyleDistance/styledistance)
+- [mStyleDistance](https://huggingface.co/StyleDistance/mstyledistance)
+- [LUAR](https://huggingface.co/rrivera1849/LUAR-MUD)
+- [Multilingual Style Representation](https://huggingface.co/Blablablab/multilingual-style-representation-Llama-3.2)
