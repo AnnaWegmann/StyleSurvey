@@ -15,10 +15,7 @@ LFTK [Lee and Lee, 2023](https://github.com/brucewlee/lftk)
 NeuroBiber [Alkiek et al., 2025](https://github.com/davidjurgens/biberplus)   
 StyloSpeaker (for speakers in speech transcripts) [Aggazzotti et al., 2015](https://github.com/caggazzotti/styloSpeaker)   
 Writeprints+ (PAN authorship verification) [Weerasinghe and Greenstadt, 2020](https://github.com/janithnw/pan2020_authorship_verification)  
-PAN style change detection:  
-  - [Strøm, 2021](https://github.com/eivistr/pan21-style-change-detection-stacking-ensemble)  
-  - [Zuo et al., 2019](https://github.com/chzuo/PAN_2019)  
-  - [Zlatkova et al., 2018](https://github.com/machinelearning-su/style-change-detection)
+PAN style change detection: [Strøm, 2021](https://github.com/eivistr/pan21-style-change-detection-stacking-ensemble), [Zuo et al., 2019](https://github.com/chzuo/PAN_2019), [Zlatkova et al., 2018](https://github.com/machinelearning-su/style-change-detection)
 
 Other less comprehensive stylometry tools:  
   - Classifying writing styles within a document [Elahi and Muneer, 2018](https://github.com/Hassaan-Elahi/Writing-Styles-Classification-Using-Stylometric-Analysis)  
