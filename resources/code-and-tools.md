@@ -8,7 +8,9 @@
 
 
 
-# Python Tools for Stylometry
+# Pre-defined features (stylometry)
+
+## Python tools
 
 LIWC [Pennebaker et al., 2015](https://www.liwc.app/)  
 LFTK [Lee and Lee, 2023](https://github.com/brucewlee/lftk)  
@@ -21,14 +23,14 @@ Other less comprehensive stylometry tools:
   - Classifying writing styles within a document [Elahi and Muneer, 2018](https://github.com/Hassaan-Elahi/Writing-Styles-Classification-Using-Stylometric-Analysis)  
   - Supervised Stylometry (SuperStyl) [Camps and Cafiero, 2024](https://github.com/SupervisedStylometry/SuperStyl)
 
-# Non-Python Tools for Stylometry
+## Non-Python tools 
 
 Stylo (R) [Eder et al., 2016](https://github.com/computationalstylistics/stylo)  
 JStylo (Java) [PSAL, 2013](https://github.com/psal/jstylo)  
 Coh-Metrix (for text cohesion and readability) [Graesser et al., 2004](https://soletlab.asu.edu/coh-metrix/)   
 Signature [Millican, 2003](https://www.philocomp.net/texts/signature.htm)  
 
-# Stylometry tools for languages other than English  
+## Tools for languages other than English  
 
 Multilingual Stylometry (Python and R) [Schöch et al., 2024](https://gitlab.clsinfra.io/cls-infra/d33)  
 
