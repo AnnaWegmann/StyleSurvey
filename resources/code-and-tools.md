@@ -10,22 +10,27 @@
 
 # Python Tools for Stylometry
 
-LIWC: https://www.liwc.app/  
-NeuroBiber: https://github.com/davidjurgens/biberplus   
-LFTK: https://github.com/brucewlee/lftk  
-StyloSpeaker (for speakers in speech transcripts): https://github.com/caggazzotti/styloSpeaker   
-Writeprints (plus a little more for PAN authorship verificaiton): https://github.com/janithnw/pan2020_authorship_verification  
+LIWC [Pennebaker et al., 2015](https://www.liwc.app/)  
+LFTK [Lee and Lee, 2023](https://github.com/brucewlee/lftk)  
+NeuroBiber [Alkiek et al., 2025](https://github.com/davidjurgens/biberplus)   
+StyloSpeaker (for speakers in speech transcripts) [Aggazzotti et al., 2015](https://github.com/caggazzotti/styloSpeaker)   
+Writeprints+ (PAN authorship verification) [Weerasinghe and Greenstadt, 2020](https://github.com/janithnw/pan2020_authorship_verification)  
 PAN style change detection:  
-  - [Strom 2021](https://github.com/eivistr/pan21-style-change-detection-stacking-ensemble)  
-  - [Zuo et al. 2019](https://github.com/chzuo/PAN_2019)  
-  - [Zlatkova et al. 2018](https://github.com/machinelearning-su/style-change-detection)  
+  - [Strøm, 2021](https://github.com/eivistr/pan21-style-change-detection-stacking-ensemble)  
+  - [Zuo et al., 2019](https://github.com/chzuo/PAN_2019)  
+  - [Zlatkova et al., 2018](https://github.com/machinelearning-su/style-change-detection)
+
+Other less comprehensive stylometry tools:  
+  - Classifying writing styles within a document [Elahi and Muneer, 2018](https://github.com/Hassaan-Elahi/Writing-Styles-Classification-Using-Stylometric-Analysis)  
+  - Supervised Stylometry (SuperStyl) [Camps and Cafiero, 2024](https://github.com/SupervisedStylometry/SuperStyl)
 
 # Non-Python Tools for Stylometry
 
-Stylo (R): https://github.com/computationalstylistics/stylo  
-JStylo (Java): https://github.com/psal/jstylo  
-Coh-Metrix (for text cohesion and readability): https://soletlab.asu.edu/coh-metrix/   
-Signature: https://www.philocomp.net/texts/signature.htm  
+Stylo (R) [Eder et al., 2016](https://github.com/computationalstylistics/stylo)  
+JStylo (Java) [PSAL, 2013](https://github.com/psal/jstylo)  
+Coh-Metrix (for text cohesion and readability) [Graesser et al., 2004](https://soletlab.asu.edu/coh-metrix/)   
+Signature [Millican, 2003](https://www.philocomp.net/texts/signature.htm)  
 
-
+# Stylometry tools for languages other than English  
+  - Multilingual Stylometry (Python and R) [Schöch et al., 2024](https://gitlab.clsinfra.io/cls-infra/d33)  
 
