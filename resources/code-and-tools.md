@@ -29,5 +29,6 @@ Coh-Metrix (for text cohesion and readability) [Graesser et al., 2004](https://s
 Signature [Millican, 2003](https://www.philocomp.net/texts/signature.htm)  
 
 # Stylometry tools for languages other than English  
-  - Multilingual Stylometry (Python and R) [Schöch et al., 2024](https://gitlab.clsinfra.io/cls-infra/d33)  
+
+Multilingual Stylometry (Python and R) [Schöch et al., 2024](https://gitlab.clsinfra.io/cls-infra/d33)  
 
