@@ -33,6 +33,7 @@ Signature [Millican, 2003](https://www.philocomp.net/texts/signature.htm)
 ## Tools for languages other than English  
 
 Multilingual Stylometry (Python and R) [Schöch et al., 2024](https://gitlab.clsinfra.io/cls-infra/d33)  
+Historical Persian [Farsi et al., 2025](https://github.com/openscilab/parsipy) ([paper](https://arxiv.org/pdf/2503.17810)) 
 
 # Automatically Learned Representations
 
