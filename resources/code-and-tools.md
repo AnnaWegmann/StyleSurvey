@@ -45,3 +45,10 @@ Historical Persian [Farsi et al., 2025](https://github.com/openscilab/parsipy) (
 - [mStyleDistance](https://huggingface.co/StyleDistance/mstyledistance)
 - [LUAR](https://huggingface.co/rrivera1849/LUAR-MUD)
 - [Multilingual Style Representation](https://huggingface.co/Blablablab/multilingual-style-representation-Llama-3.2)
+
+## Other Models
+- [LISA](https://ajayp.app/posts/2023/11/learning-interpretable-embeddings-via-llms/)
+
+# Explaination tools
+
+- [Latent Style Interpretation](https://github.com/MiladAlshomary/latent-style-interpretation) with a demo [on HuggingFace](https://huggingface.co/spaces/ExplainabiliyForAATeam/explainability-tool-for-aa)
