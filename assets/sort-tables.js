@@ -1,19 +1,20 @@
-// Wire up [Tablesort](https://github.com/tristen/tablesort) on all tables.
-// Requires tablesort.min.js to be loaded before this script.
+// Shared client-side helpers for tables on the GitHub Pages site.
+// - Sorting: uses [Tablesort](https://github.com/tristen/tablesort)
+// - Optional filtering: any <input data-table-filter="#table-id"> will
+//   filter rows in the referenced table by text match.
 
 (function () {
   function initTableSort() {
     if (typeof Tablesort !== "function") {
-      // Tablesort library not loaded; do nothing gracefully.
+      // Tablesort library not loaded; skip silently.
       return;
     }
 
     const tables = document.querySelectorAll("table");
     tables.forEach((table) => {
-      // Initialize Tablesort for this table
       new Tablesort(table);
 
-      // Initial sort: first column ascending so users see it's sortable
+      // Initial sort: first column ascending so users see it's sortable.
       const firstHeader = table.querySelector("thead th");
       if (firstHeader) {
         firstHeader.click();
@@ -21,9 +22,37 @@
     });
   }
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", initTableSort);
-  } else {
+  function initTableFilters() {
+    const filters = document.querySelectorAll("[data-table-filter]");
+    filters.forEach((input) => {
+      const selector = input.getAttribute("data-table-filter");
+      if (!selector) return;
+      const table = document.querySelector(selector);
+      if (!table) return;
+
+      const tbody = table.tBodies[0] || table;
+
+      input.addEventListener("input", function () {
+        const query = this.value.trim().toLowerCase();
+        const rows = Array.from(tbody.querySelectorAll("tr"));
+
+        rows.forEach((row) => {
+          const text = row.textContent.toLowerCase();
+          const match = !query || text.indexOf(query) !== -1;
+          row.style.display = match ? "" : "none";
+        });
+      });
+    });
+  }
+
+  function init() {
     initTableSort();
+    initTableFilters();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
   }
 })();
