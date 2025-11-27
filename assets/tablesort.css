@@ -1,0 +1,18 @@
+/* Minimal styling for Tablesort (https://github.com/tristen/tablesort) */
+
+table thead th {
+  cursor: pointer;
+}
+
+/* Show an arrow when a column is sorted; Tablesort sets aria-sort */
+table thead th[aria-sort]::after {
+  content: "▲";
+  margin-left: 0.25em;
+  font-size: 0.8em;
+}
+
+table thead th[aria-sort="descending"]::after {
+  content: "▼";
+}
+
+

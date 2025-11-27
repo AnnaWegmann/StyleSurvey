@@ -1,8 +1,35 @@
-
-
-- [Million Reddit User Dataset](https://docs.google.com/forms/d/e/1FAIpQLSesc-0HI2DRYjFqlpPo2hTh9OJ53jtWjYQiIfAtmzSVUCxiLA/viewform)
-
-
+| Dataset / Collection              | Domain             | Link                                                         | Paper / Reference                                            | Common Tasks                                          |
+| --------------------------------- | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------------- |
+| Enron Email Corpus                | E-mails            | [dataset](https://www.cs.cmu.edu/~enron/)                    | [Klimt & Yang 2004](https://www.cs.cmu.edu/~./enron/KlimtYang2004.pdf) | Authorship Attribution, Authorship Verification       |
+| Blog Authorship Corpus            | Blogs              | [dataset](https://u.cs.biu.ac.il/~koppel/BlogCorpus.htm)     | [Schler et al. 2006](https://u.cs.biu.ac.il/~koppel/papers/blogs-gender-age.pdf) | Author Profiling (age, gender), Attribution           |
+| ICWSM Blog Datasets               | Blogs              | [dataset](https://www.icwsm.org/)                            | ICWSM proceedings                                            | Social media analysis, Profiling                      |
+| Pushshift Reddit Dataset          | Reddit             | [dataset](https://files.pushshift.io/reddit/)                | [Baumgartner et al. 2020](https://arxiv.org/pdf/2001.08435.pdf) | Attribution, Profiling, Social-behavior analysis      |
+| GoEmotions                        | Reddit             | [dataset](https://github.com/google-research/google-research/tree/master/goemotions) | [Demszky et al. 2020](https://arxiv.org/pdf/2005.00547.pdf)  | Emotion classification, Style analysis                |
+| Million Reddit User Dataset (MUD) | Reddit             | [dataset](https://docs.google.com/forms/d/e/1FAIpQLSesc-0HI2DRYjFqlpPo2hTh9OJ53jtWjYQiIfAtmzSVUCxiLA/viewform) | Dataset description: [TIB entry](https://service.tib.eu/ldmservice/en/dataset/?tags=Reddit) | Attribution, Profiling                                |
+| Amazon Reviews (UCSD)             | Reviews            | [dataset](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/) | [McAuley et al. 2015](https://cseweb.ucsd.edu/~jmcauley/pdfs/kdd15.pdf) | Attribution, Sentiment, Style                         |
+| Amazon Multilingual Reviews       | Reviews            | [dataset](https://registry.opendata.aws/amazon-reviews-ml/)  | AWS documentation                                            | Cross-lingual sentiment, Profiling                    |
+| Yelp Reviews                      | Reviews            | [dataset](https://www.yelp.com/dataset)                      | Yelp documentation                                           | Sentiment analysis, Attribution                       |
+| IMDB Reviews (aclImdb)            | Reviews            | [dataset](https://ai.stanford.edu/~amaas/data/sentiment/)    | [Maas et al. 2011](https://ai.stanford.edu/~amaas/papers/wvSent_acl2011.pdf) | Sentiment analysis, Style                             |
+| Fanfiction.net Corpus             | Fanfiction         | [dataset](https://github.com/ianlini/fanfiction-corpus)      | [Sercombe et al. 2021](https://aclanthology.org/2021.corpora-1.6.pdf) | Attribution, Style, Creative authorship               |
+| AO3 Academic Samples              | Fanfiction         | [dataset](https://archiveofourown.org/)                      | [Fiesler 2018](https://www.tandfonline.com/doi/pdf/10.1080/14680777.2018.1454675) | Attribution, Style                                    |
+| Wikitext (human portion)          | Wikipedia          | [dataset](https://blog.einstein.ai/the-wikitext-long-term-memory-dataset/) | [Merity et al. 2016](https://arxiv.org/pdf/1609.07843.pdf)   | LM evaluation, Style                                  |
+| BookCorpus                        | Books              | [dataset](https://yknzhu.wixsite.com/mbweb)                  | [Zhu et al. 2015](https://arxiv.org/pdf/1506.06724.pdf)      | Narrative style, Attribution                          |
+| Gutenberg / PG-19                 | Books              | [dataset](https://github.com/deepmind/pg19)                  | [Rae et al. 2019](https://arxiv.org/pdf/1911.05507.pdf)      | Long-form authorship attribution                      |
+| Wikipedia Talk Corpus             | Online discussions | [dataset](https://figshare.com/articles/dataset/Wikipedia_Talk_Corpus/4264973) | [Wulczyn et al. 2017](https://arxiv.org/pdf/1610.08914.pdf)  | Toxicity detection, Profiling                         |
+| PAN 2011                          | PAN                | [dataset](https://pan.webis.de/clef11/pan11-web/author-identification.html) | [paper](http://ceur-ws.org/Vol-1177/CLEF2011wn-PAN-StamatatosEt2011.pdf) | Authorship Attribution                                |
+| PAN 2012                          | PAN                | [dataset](https://pan.webis.de/clef12/pan12-web/authorship-attribution.html) | [paper](http://ceur-ws.org/Vol-1178/CLEF2012wn-PAN-JuolaEt2012.pdf) | Authorship Attribution                                |
+| PAN 2013                          | PAN                | [dataset](https://pan.webis.de/clef13/pan13-web/authorship-verification.html) | [paper](http://ceur-ws.org/Vol-1179/CLEF2013wn-PAN-StamatatosEt2013.pdf) | Authorship Verification                               |
+| PAN 2014                          | PAN                | [dataset](https://pan.webis.de/clef14/pan14-web/author-verification.html) | [paper](http://ceur-ws.org/Vol-1180/CLEF2014wn-PAN-StamatatosEt2014.pdf) | Authorship Verification                               |
+| PAN 2015                          | PAN                | [dataset](https://pan.webis.de/clef15/pan15-web/author-identification.html) | [paper](http://ceur-ws.org/Vol-1391/33.pdf)                  | Authorship Attribution                                |
+| PAN 2016                          | PAN                | [dataset](https://pan.webis.de/clef16/pan16-web/author-profiling.html) | [paper](http://ceur-ws.org/Vol-1609/16090522.pdf)            | Author Profiling                                      |
+| PAN 2017                          | PAN                | [dataset](https://pan.webis.de/clef17/pan17-web/author-profiling.html) | [paper](http://ceur-ws.org/Vol-1866/paper_149.pdf)           | Author Profiling                                      |
+| PAN 2018                          | PAN                | [dataset](https://pan.webis.de/clef18/pan18-web/author-profiling.html) | [paper](http://ceur-ws.org/Vol-2125/paper_166.pdf)           | Author Profiling                                      |
+| PAN 2019                          | PAN                | [dataset](https://pan.webis.de/clef19/pan19-web/authorship-verification.html) | [paper](http://ceur-ws.org/Vol-2380/paper_237.pdf)           | Authorship Verification                               |
+| PAN 2020                          | PAN                | [dataset](https://pan.webis.de/clef20/pan20-web/authorship-verification.html) | [paper](http://ceur-ws.org/Vol-2696/paper_267.pdf)           | Authorship Verification                               |
+| PAN 2021                          | PAN                | [dataset](https://pan.webis.de/clef21/pan21-web/style-change-detection.html) | [paper](http://ceur-ws.org/Vol-2936/paper-114.pdf)           | Style Change Detection                                |
+| PAN 2022                          | PAN                | [dataset](https://pan.webis.de/clef22/pan22-web/authorship-verification.html) | [paper](http://ceur-ws.org/Vol-3180/paper-175.pdf)           | Authorship Verification                               |
+| PAN 2023                          | PAN                | [dataset](https://pan.webis.de/clef23/pan23-web/multi-author.html) | [paper](http://ceur-ws.org/Vol-3497/paper-171.pdf)           | Multi-author analysis, Attribution                    |
+| PAN 2024                          | PAN                | [dataset](https://pan.webis.de/)                             | CEUR proceedings                                             | Varies by task                                        |
 
 | Dataset / Collection                                 | Domain           | Link / Homepage                                              | Paper(s) / Notes                                             |
 | ---------------------------------------------------- | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -98,74 +125,6 @@
 | PAN 2023 Multi-Author Analysis                   | PAN Shared Task | https://pan.webis.de/clef23/pan23-web/multi-author.html      | Latest overview papers on PAN site.                          |
 | PAN 2024 Tasks                                   | PAN Shared Task | https://pan.webis.de                                         | PAN provides yearly overview papers; datasets vary by task.  |
 
-<script>
-(function () {
-  function sortTableByColumn(table, headers, columnIndex, direction) {
-    const tbody = table.tBodies[0] || table;
-    const rows = Array.from(tbody.querySelectorAll("tr"));
-
-    // Reset all header labels and sort state
-    headers.forEach((h) => {
-      h.removeAttribute("data-sort-dir");
-      const baseText =
-        h.getAttribute("data-original-text") || h.textContent.trim();
-      h.textContent = baseText;
-    });
-
-    const th = headers[columnIndex];
-    if (!th) return;
-
-    // Mark this header and add indicator
-    const originalText =
-      th.getAttribute("data-original-text") || th.textContent.trim();
-    th.setAttribute("data-sort-dir", direction);
-    th.textContent = `${originalText} ${direction === "asc" ? "▲" : "▼"}`;
-
-    // Sort rows based on this column
-    rows.sort((a, b) => {
-      const aCell = a.cells[columnIndex];
-      const bCell = b.cells[columnIndex];
-      const aText = (aCell ? aCell.textContent : "").trim().toLowerCase();
-      const bText = (bCell ? bCell.textContent : "").trim().toLowerCase();
-
-      if (aText < bText) return direction === "asc" ? -1 : 1;
-      if (aText > bText) return direction === "asc" ? 1 : -1;
-      return 0;
-    });
-
-    // Re-attach rows in new order
-    rows.forEach((row) => tbody.appendChild(row));
-  }
-
-  function makeTablesSortable() {
-    const tables = document.querySelectorAll("table");
-    tables.forEach((table) => {
-      const headers = table.querySelectorAll("thead th");
-      if (!headers.length) return;
-
-      headers.forEach((th, columnIndex) => {
-        const originalText =
-          th.getAttribute("data-original-text") || th.textContent.trim();
-        th.setAttribute("data-original-text", originalText);
-        th.style.cursor = "pointer";
-
-        th.addEventListener("click", () => {
-          // Determine new sort direction
-          const currentDir = th.getAttribute("data-sort-dir") || "none";
-          const newDir = currentDir === "asc" ? "desc" : "asc";
-          sortTableByColumn(table, headers, columnIndex, newDir);
-        });
-      });
-
-      // Initial sort: first column ascending so the arrow is visible
-      sortTableByColumn(table, headers, 0, "asc");
-    });
-  }
-
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", makeTablesSortable);
-  } else {
-    makeTablesSortable();
-  }
-})();
-</script>
+<link rel="stylesheet" href="../assets/tablesort.css">
+<script src="https://unpkg.com/tablesort@5.6.0/dist/tablesort.min.js"></script>
+<script src="../assets/sort-tables.js"></script>
