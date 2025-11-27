@@ -100,6 +100,43 @@
 
 <script>
 (function () {
+  function sortTableByColumn(table, headers, columnIndex, direction) {
+    const tbody = table.tBodies[0] || table;
+    const rows = Array.from(tbody.querySelectorAll("tr"));
+
+    // Reset all header labels and sort state
+    headers.forEach((h) => {
+      h.removeAttribute("data-sort-dir");
+      const baseText =
+        h.getAttribute("data-original-text") || h.textContent.trim();
+      h.textContent = baseText;
+    });
+
+    const th = headers[columnIndex];
+    if (!th) return;
+
+    // Mark this header and add indicator
+    const originalText =
+      th.getAttribute("data-original-text") || th.textContent.trim();
+    th.setAttribute("data-sort-dir", direction);
+    th.textContent = `${originalText} ${direction === "asc" ? "▲" : "▼"}`;
+
+    // Sort rows based on this column
+    rows.sort((a, b) => {
+      const aCell = a.cells[columnIndex];
+      const bCell = b.cells[columnIndex];
+      const aText = (aCell ? aCell.textContent : "").trim().toLowerCase();
+      const bText = (bCell ? bCell.textContent : "").trim().toLowerCase();
+
+      if (aText < bText) return direction === "asc" ? -1 : 1;
+      if (aText > bText) return direction === "asc" ? 1 : -1;
+      return 0;
+    });
+
+    // Re-attach rows in new order
+    rows.forEach((row) => tbody.appendChild(row));
+  }
+
   function makeTablesSortable() {
     const tables = document.querySelectorAll("table");
     tables.forEach((table) => {
@@ -113,41 +150,15 @@
         th.style.cursor = "pointer";
 
         th.addEventListener("click", () => {
-          const tbody = table.tBodies[0] || table;
-          const rows = Array.from(tbody.querySelectorAll("tr"));
-
           // Determine new sort direction
           const currentDir = th.getAttribute("data-sort-dir") || "none";
           const newDir = currentDir === "asc" ? "desc" : "asc";
-
-          // Reset other headers
-          headers.forEach((h) => {
-            h.removeAttribute("data-sort-dir");
-            const baseText =
-              h.getAttribute("data-original-text") || h.textContent.trim();
-            h.textContent = baseText;
-          });
-
-          // Mark this header and add indicator
-          th.setAttribute("data-sort-dir", newDir);
-          th.textContent = `${originalText} ${newDir === "asc" ? "▲" : "▼"}`;
-
-          // Sort rows based on this column
-          rows.sort((a, b) => {
-            const aCell = a.cells[columnIndex];
-            const bCell = b.cells[columnIndex];
-            const aText = (aCell ? aCell.textContent : "").trim().toLowerCase();
-            const bText = (bCell ? bCell.textContent : "").trim().toLowerCase();
-
-            if (aText < bText) return newDir === "asc" ? -1 : 1;
-            if (aText > bText) return newDir === "asc" ? 1 : -1;
-            return 0;
-          });
-
-          // Re-attach rows in new order
-          rows.forEach((row) => tbody.appendChild(row));
+          sortTableByColumn(table, headers, columnIndex, newDir);
         });
       });
+
+      // Initial sort: first column ascending so the arrow is visible
+      sortTableByColumn(table, headers, 0, "asc");
     });
   }
 
