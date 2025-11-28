@@ -1159,13 +1159,6 @@ To filter the table, start typing in the search box below; click any column head
       <td>ICWSM, pages 439–448</td>
     </tr>
     <tr>
-      <td><em>Do Word Embeddings Capture Spelling Variation?</em></td>
-      <td>Dong Nguyen and Jack Grieve</td>
-      <td><a href="https://doi.org/10.18653/v1/2020.coling-main.75">link</a></td>
-      <td>2020</td>
-      <td>COLING, pages 870–881</td>
-    </tr>
-    <tr>
       <td><em>Do word embeddings capture spelling variation?</em></td>
       <td>Dong Nguyen and Jack Grieve</td>
       <td><a href="https://doi.org/10.18653/v1/2020.coling-main.75">link</a></td>
