@@ -17,7 +17,6 @@ The BibTeX file should contain one entry per referenced work. We extract:
 The generated Markdown table is then wired up with:
   - tablesort.js for client-side sorting
   - a small JS helper to add sorting + filtering and build a venue bar chart
-  - optional citation-network hook via a JSON blob in the page
 """
 
 import sys
@@ -89,12 +88,14 @@ def build_markdown(entries):
     '<input\n'
     '  type="search"\n'
     '  placeholder="Filter by title, author, year, venue…"\n'
-    '  data-table-filter="#papers-table"\n'
+    '  data-table-filter="#papers-table-wrapper table"\n'
     '  style="width: 100%; padding: 0.4rem; margin: 0.5rem 0;"\n'
     '/>\n'
   )
 
-  # Table header
+  lines.append('<div id="papers-table-wrapper">\n')
+
+  # Table header (Markdown table)
   header = "| " + " | ".join(TABLE_COLUMNS) + " |"
   sep = "| " + " | ".join(["---"] * len(TABLE_COLUMNS)) + " |"
   lines.append(header)
@@ -104,6 +105,8 @@ def build_markdown(entries):
   for e in entries:
     row = entry_to_row(e)
     lines.append("| " + " | ".join(row) + " |")
+
+  lines.append("\n</div>\n")
 
   lines.append(
     "\n## Venue distribution\n\n"
@@ -115,37 +118,9 @@ def build_markdown(entries):
   )
 
   lines.append(
-    "## Citation network (optional)\n\n"
-    "You can optionally provide a citation graph (e.g., which referenced "
-    "papers cite each other) as JSON.\n"
-    "The visualization below expects a JSON payload of the form:\n\n"
-    "```json\n"
-    '{\n'
-    '  "nodes": [\n'
-    '    { "id": "Wegmann2025", "label": "Wegmann et al. 2025" }\n'
-    "  ],\n"
-    '  "links": [\n'
-    '    { "source": "Wegmann2025", "target": "Zhu2021" }\n'
-    "  ]\n"
-    "}\n"
-    "```\n\n"
-    "Paste such a JSON structure into the `<script id=\"citation-data\">` "
-    "block and it will be rendered automatically.\n\n"
-    '<div\n'
-    '  id="citation-network"\n'
-    '  style="width: 100%; max-width: 900px; height: 500px; '
-    'border: 1px solid #ddd; margin-top: 1rem;"\n'
-    "></div>\n\n"
-    '<script type="application/json" id="citation-data">\n'
-    "{\n"
-    '  "nodes": [],\n'
-    '  "links": []\n'
-    "}\n"
-    "</script>\n\n"
     '<link rel="stylesheet" href="../assets/tablesort.css">\n\n'
     '<script src="https://unpkg.com/tablesort@5.6.0/dist/tablesort.min.js"></script>\n'
     '<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>\n'
-    '<script src="https://d3js.org/d3.v7.min.js"></script>\n'
     '<script src="../assets/sort-tables.js"></script>\n'
     '<script src="../assets/papers-visualizations.js"></script>\n'
   )

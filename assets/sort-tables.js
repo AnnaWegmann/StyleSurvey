@@ -26,8 +26,22 @@
     const filters = document.querySelectorAll("[data-table-filter]");
     filters.forEach((input) => {
       const selector = input.getAttribute("data-table-filter");
-      if (!selector) return;
-      const table = document.querySelector(selector);
+
+      function findTable() {
+        if (selector) {
+          const t = document.querySelector(selector);
+          if (t) return t;
+        }
+        // Fallback: nearest table after the input
+        let el = input.nextElementSibling;
+        while (el) {
+          if (el.tagName && el.tagName.toLowerCase() === "table") return el;
+          el = el.nextElementSibling;
+        }
+        return null;
+      }
+
+      const table = findTable();
       if (!table) return;
 
       const tbody = table.tBodies[0] || table;
