@@ -1,6 +1,6 @@
 ## Papers and works from the Style Survey
 
-*This is a stub. We welcome contributions to collect relevant style papers that are not mentioned in our survey.*
+*We welcome contributions to collect relevant style papers that are not mentioned in our survey.*
 
 This page is intended to list the references from the Style Survey paper as a **sortable, searchable table**, and to provide simple visualizations over that list.
 
@@ -1658,7 +1658,6 @@ To filter the table, start typing in the search box below; click any column head
   </tbody>
 </table>
 
-> **Note:** To include *all* references from the PDF, it’s easiest to export them as BibTeX and generate this table automatically. See `scripts/build-papers-table.py` for a starting point you can adapt to your own BibTeX file.
 
 <link rel="stylesheet" href="../assets/tablesort.css">
 
