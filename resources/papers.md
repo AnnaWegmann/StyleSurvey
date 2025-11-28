@@ -1660,17 +1660,7 @@ To filter the table, start typing in the search box below; click any column head
 
 > **Note:** To include *all* references from the PDF, it’s easiest to export them as BibTeX and generate this table automatically. See `scripts/build-papers-table.py` for a starting point you can adapt to your own BibTeX file.
 
-## Venue distribution
-
-The bar chart below is computed directly from the **Venue** column of the table above.
-
-<div style="width: 100%; max-width: 900px; height: 400px;">
-  <canvas id="venue-chart"></canvas>
-</div>
-
 <link rel="stylesheet" href="../assets/tablesort.css">
 
 <script src="https://unpkg.com/tablesort@5.6.0/dist/tablesort.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <script src="../assets/sort-tables.js"></script>
-<script src="../assets/papers-visualizations.js"></script>

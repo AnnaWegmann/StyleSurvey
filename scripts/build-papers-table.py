@@ -14,9 +14,8 @@ The BibTeX file should contain one entry per referenced work. We extract:
   - venue   -> first non-empty of "booktitle", "journal", "publisher"
   - link    -> "url" if present, otherwise a URL built from "doi" if present
 
-The generated Markdown table is then wired up with:
-  - tablesort.js for client-side sorting
-  - a small JS helper to add sorting + filtering and build a venue bar chart
+The generated Markdown table is then wired up with tablesort.js for
+client-side sorting and a small JS helper to add sorting + filtering.
 """
 
 import sys
@@ -80,8 +79,7 @@ def build_markdown(entries):
   )
   lines.append(
     "This page lists the references from the Style Survey paper as a "
-    "**sortable, searchable table**, and provides simple visualizations "
-    "over that list.\n"
+    "**sortable, searchable table**.\n"
   )
   lines.append(
     "To filter the table, start typing in the search box below; click any "
@@ -121,20 +119,9 @@ def build_markdown(entries):
   lines.append("</table>\n")
 
   lines.append(
-    "\n## Venue distribution\n\n"
-    "The bar chart below is computed directly from the **Venue** column "
-    "of the table above.\n\n"
-    '<div style="width: 100%; max-width: 900px; height: 400px;">\n'
-    '  <canvas id="venue-chart"></canvas>\n'
-    "</div>\n"
-  )
-
-  lines.append(
     '<link rel="stylesheet" href="../assets/tablesort.css">\n\n'
     '<script src="https://unpkg.com/tablesort@5.6.0/dist/tablesort.min.js"></script>\n'
-    '<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>\n'
     '<script src="../assets/sort-tables.js"></script>\n'
-    '<script src="../assets/papers-visualizations.js"></script>\n'
   )
 
   return "\n".join(lines) + "\n"
