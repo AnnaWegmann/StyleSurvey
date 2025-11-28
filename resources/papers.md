@@ -9,13 +9,30 @@ To filter the table, start typing in the search box below; click any column head
 <input
   type="search"
   placeholder="Filter by title, author, year, venue…"
-  data-table-filter=""
+  data-table-filter="#papers-table"
   style="width: 100%; padding: 0.4rem; margin: 0.5rem 0;"
 />
 
-| Title | Authors | Link | Year | Venue |
-| ----- | ------- | ---- | ---- | ----- |
-| *Example: Learning Invariant Representations of Social Media Users* | Noa A. et al. | [link](https://github.com/noa/iur) | 2020 | ACL |
+<table id="papers-table">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Authors</th>
+      <th>Link</th>
+      <th>Year</th>
+      <th>Venue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><em>Example: Learning Invariant Representations of Social Media Users</em></td>
+      <td>Noa A. et al.</td>
+      <td><a href="https://github.com/noa/iur">link</a></td>
+      <td>2020</td>
+      <td>ACL</td>
+    </tr>
+  </tbody>
+</table>
 
 > **Note:** To include *all* references from the PDF, it’s easiest to export them as BibTeX and generate this table automatically. See `scripts/build-papers-table.py` for a starting point you can adapt to your own BibTeX file.
 

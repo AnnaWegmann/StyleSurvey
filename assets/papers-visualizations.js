@@ -1,9 +1,9 @@
 (function () {
   function buildVenueChart() {
-    // Prefer the papers table wrapper if present, otherwise fall back to
+    // Prefer the explicit papers table if present, otherwise fall back to
     // the first table on the page.
     const table =
-      document.querySelector("#papers-table-wrapper table") ||
+      document.querySelector("#papers-table") ||
       document.querySelector("table");
     const canvas = document.getElementById("venue-chart");
     if (!table || !canvas || typeof Chart === "undefined") return;

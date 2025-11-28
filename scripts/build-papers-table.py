@@ -51,7 +51,11 @@ def entry_to_row(entry):
     if doi:
       url = f"https://doi.org/{doi}"
 
-  link_cell = url if not url else f"[link]({url})"
+  # For HTML tables we prefer explicit anchors when a URL is present.
+  if url:
+    link_cell = f'<a href="{url}">link</a>'
+  else:
+    link_cell = ""
 
   # Basic escaping for pipes in Markdown cells.
   def esc(text: str) -> str:
@@ -88,21 +92,33 @@ def build_markdown(entries):
     '<input\n'
     '  type="search"\n'
     '  placeholder="Filter by title, author, year, venue…"\n'
-    '  data-table-filter=""\n'
+    '  data-table-filter="#papers-table"\n'
     '  style="width: 100%; padding: 0.4rem; margin: 0.5rem 0;"\n'
     '/>\n'
   )
 
-  # Table header (Markdown table)
-  header = "| " + " | ".join(TABLE_COLUMNS) + " |"
-  sep = "| " + " | ".join(["---"] * len(TABLE_COLUMNS)) + " |"
-  lines.append(header)
-  lines.append(sep)
+  # HTML table so that sorting and filtering can reliably target it.
+  lines.append('<table id="papers-table">\n')
+  lines.append("  <thead>")
+  lines.append("    <tr>")
+  for col in TABLE_COLUMNS:
+    lines.append(f"      <th>{col}</th>")
+  lines.append("    </tr>")
+  lines.append("  </thead>")
+  lines.append("  <tbody>")
 
-  # Rows
   for e in entries:
-    row = entry_to_row(e)
-    lines.append("| " + " | ".join(row) + " |")
+    title, authors, link_cell, year, venue = entry_to_row(e)
+    lines.append("    <tr>")
+    lines.append(f"      <td>{title}</td>")
+    lines.append(f"      <td>{authors}</td>")
+    lines.append(f"      <td>{link_cell}</td>")
+    lines.append(f"      <td>{year}</td>")
+    lines.append(f"      <td>{venue}</td>")
+    lines.append("    </tr>")
+
+  lines.append("  </tbody>")
+  lines.append("</table>\n")
 
   lines.append(
     "\n## Venue distribution\n\n"
