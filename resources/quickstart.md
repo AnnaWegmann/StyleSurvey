@@ -1,6 +1,6 @@
 # Quickstart with Style Tools
 
-To help you get started with style representations, we provide collab notebooks to replicate some of the figures in our Survey article.
+To help you get started with style representations, we provide collab notebooks to replicate some of the figures in our Survey article. [Not provided in anonymous pages as it seems not possible to anonymize colab notebooks.]
 
 
 
