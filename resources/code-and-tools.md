@@ -1,13 +1,4 @@
-# Code
-
-<link rel="stylesheet" href="../assets/tablesort.css">
-
-## Research code
-
-| Project | Link |
-| ------ | ---- |
-| Learning Invariant Representations of Social Media Users | https://github.com/noa/iur |
-| A Deep Metric Learning Approach to Account Linking | https://github.com/noa/naacl2021 |
+*We welcome additions via Pull Requests.*
 
 # Pre-defined features (stylometry)
 
@@ -72,3 +63,17 @@
 
 <script src="https://unpkg.com/tablesort@5.6.0/dist/tablesort.min.js"></script>
 <script src="../assets/sort-tables.js"></script>
+
+# Scripts
+
+<link rel="stylesheet" href="../assets/tablesort.css">
+
+| Project | Link |
+| ------ | ---- |
+| Learning Invariant Representations of Social Media Users | https://github.com/noa/iur |
+| A Deep Metric Learning Approach to Account Linking | https://github.com/noa/naacl2021 |
+| Style is NOT a single variable: Case Studies for Cross-Style Language Understanding | https://github.com/dykang/xslue|
+|  Does It Capture STEL? A Modular, Similarity-based Linguistic Style Evaluation Framework. | https://github.com/nlpsoc/STEL |
+|  On the State of the Art in Authorship Attribution and Authorship Verification | https://github.com/JacobTyo/Valla |
+|  On the State of the Art in Authorship Attribution and Authorship Verification | https://github.com/JacobTyo/Valla |
+
