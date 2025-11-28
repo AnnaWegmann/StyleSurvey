@@ -88,12 +88,10 @@ def build_markdown(entries):
     '<input\n'
     '  type="search"\n'
     '  placeholder="Filter by title, author, year, venue…"\n'
-    '  data-table-filter="#papers-table-wrapper table"\n'
+    '  data-table-filter=""\n'
     '  style="width: 100%; padding: 0.4rem; margin: 0.5rem 0;"\n'
     '/>\n'
   )
-
-  lines.append('<div id="papers-table-wrapper">\n')
 
   # Table header (Markdown table)
   header = "| " + " | ".join(TABLE_COLUMNS) + " |"
@@ -105,8 +103,6 @@ def build_markdown(entries):
   for e in entries:
     row = entry_to_row(e)
     lines.append("| " + " | ".join(row) + " |")
-
-  lines.append("\n</div>\n")
 
   lines.append(
     "\n## Venue distribution\n\n"
