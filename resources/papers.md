@@ -4,7 +4,7 @@
 
 This page is intended to list the references from the Style Survey paper as a **sortable, searchable table**.
 
-To filter the table, start typing in the search box below; click any column header to sort (uses [`tablesort`](https://github.com/tristen/tablesort)).
+To filter the table, start typing in the search box below; click any column header to sort.
 
 <input
   type="search"
