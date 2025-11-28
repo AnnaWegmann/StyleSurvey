@@ -1,6 +1,6 @@
 ## Papers and works from the Style Survey
 
-*We welcome contributions to collect relevant style papers that are not mentioned in our survey.*
+*We welcome contributions to collect relevant style papers that are not mentioned in our survey.* Note that this list includes all references from our survey which includes works that might not be directly related to style or style representations. 
 
 This page is intended to list the references from the Style Survey paper as a **sortable, searchable table**.
 
