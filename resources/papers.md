@@ -1271,13 +1271,6 @@ To filter the table, start typing in the search box below; click any column head
       <td>Findings of ACL 2025, pages 16917–16931</td>
     </tr>
     <tr>
-      <td><em>mStyleDistance: Multilingual Style Embeddings and their Evaluation</em></td>
-      <td>Justin Qiu, Jiacheng Zhu, Ajay Patel, Marianna Apidianaki, and Chris Callison-Burch</td>
-      <td><a href="https://doi.org/10.48550/arXiv.2502.15168">link</a></td>
-      <td>2025</td>
-      <td>arXiv preprint ArXiv:2502.15168</td>
-    </tr>
-    <tr>
       <td><em>Personalized machine translation: Preserving original author traits</em></td>
       <td>Ella Rabinovich, Raj Nath Patel, Shachar Mirkin, Lucia Specia, and Shuly Wintner</td>
       <td><a href="https://aclanthology.org/E17-1101/">link</a></td>
@@ -1318,13 +1311,6 @@ To filter the table, start typing in the search box below; click any column head
       <td><a href="https://iclr.cc/virtual/2024/poster/18293">link</a></td>
       <td>2024</td>
       <td>ICLR</td>
-    </tr>
-    <tr>
-      <td><em>Few-Shot Detection of Machine-Generated Text using Style Representations</em></td>
-      <td>Rafael Rivera Soto, Kailin Koch, Aleem Khan, Barry Y. Chen, Marcus Bishop, and Nicholas Andrews</td>
-      <td><a href="https://openreview.net/forum?id=cWiEN1plhJ">link</a></td>
-      <td>2023</td>
-      <td>-</td>
     </tr>
     <tr>
       <td><em>Learning universal authorship representations</em></td>
@@ -1374,13 +1360,6 @@ To filter the table, start typing in the search box below; click any column head
       <td><a href="https://doi.org/10.1108/IJBM-11-2022-0519">link</a></td>
       <td>2023</td>
       <td>International Journal of Bank Marketing, 42(2):331–355</td>
-    </tr>
-    <tr>
-      <td><em>Style transfer from non-parallel text by cross-alignment</em></td>
-      <td>Tianxiao Shen, Tao Lei, Regina Barzilay, and Tommi Jaakkola</td>
-      <td><a href="https://papers.nips.cc/paper/2017/hash/2d2c8394eac7e579e59bf81f513fbd6d-Abstract.html">link</a></td>
-      <td>2017</td>
-      <td>NeurIPS, 30</td>
     </tr>
     <tr>
       <td><em>Style transfer from non-parallel text by cross-alignment</em></td>
