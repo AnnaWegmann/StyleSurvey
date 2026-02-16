@@ -46,7 +46,7 @@
 | Urdu | stylometric [Nazir et al., 2021](https://doi.org/10.1145/3487061) |
 | Bengali | stylometric, n-grams [Hossain et al., 2020](https://doi.org/10.1145/3377049.3377079) |
 | Hinglish | n-grams [Sharma et al., 2018](https://doi.org/10.48550/arXiv.1812.10281) |
-| Chinese | tones/rimes [Hou & Huang, 2020](10.1017/S135132491900010X), character/rhyme/genre/overlapped words [Tang et al., 2020](https://doi.org/10.1145/3319921.331995) |
+| Chinese | tones/rimes [Hou & Huang, 2020](https://doi.org/10.1017/S135132491900010X), character/rhyme/genre/overlapped words [Tang et al., 2020](https://doi.org/10.1145/3319921.3319958) |
 | Arabic poetry | stylometric [Ahmed et al., 2019](https://doi.org/10.3844/jcssp.2019.1012.1021) |
 | EN/FR/IT/SP | n-grams, word2vec, TFIDF (PAN 2019) [Rahgouy et al., 2019](https://ceur-ws.org/Vol-2380/paper_195.pdf) |
 
