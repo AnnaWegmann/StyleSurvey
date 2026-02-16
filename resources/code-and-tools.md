@@ -32,10 +32,23 @@
 
 ## Tools for languages other than English  
 
-| Tool | Notes / Link |
+| Language | Notes / Link |
 | ---- | ------------ |
+| Spanish | [Carreras-Riudavets et al., 2025](https://tulengua.iatext.ulpgc.es/estilometria/) ([paper](https://doi.org/10.1080/23311983.2025.2451513)) |
 | Multilingual Stylometry (Python and R) | [Schöch et al., 2024](https://gitlab.clsinfra.io/cls-infra/d33) |
 | Historical Persian | [Farsi et al., 2025](https://github.com/openscilab/parsipy) ([paper](https://arxiv.org/pdf/2503.17810)) |
+| Cross-language/bilingual | DT-grams [Murauer & Specht, 2021](https://git.uibk.ac.at/csak8736/gvdb2021-code) ([paper](https://ceur-ws.org/Vol-3075/paper7.pdf)) |
+
+### Papers using stylometry for languages other than English (no tools released)
+| Language | Notes / Paper |
+| ---- | ------------ |
+| Latin | [Chen et al., 2024](https://aclanthology.org/2024.ml4al-1.24.pdf) |
+| Urdu | [Nazir et al., 2021](https://doi.org/10.1145/3487061) |
+| Hinglish | n-grams [Sharma et al., 2018](https://doi.org/10.48550/arXiv.1812.10281) |
+| Chinese | tones/rimes: [Hou & Huang, 2020](10.1017/S135132491900010X), character/rhyme/genre/overlapped words [Tang et al., 2020](https://doi.org/10.1145/3319921.331995) |
+| Bengali | [Hossain et al., 2020](https://doi.org/10.1145/3377049.3377079) |
+| Arabic | poetry [Ahmed et al., 2019](https://doi.org/10.3844/jcssp.2019.1012.1021) |
+| EN/FR/IT/SP | n-grams, word2vec, TFIDF (PAN 2019) [Rahgouy et al., 2019](https://ceur-ws.org/Vol-2380/paper_195.pdf) |
 
 # Automatically Learned Representations
 
