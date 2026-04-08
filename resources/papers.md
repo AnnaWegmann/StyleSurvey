@@ -999,7 +999,7 @@ To filter the table, start typing in the search box below; click any column head
     </tr>
     <tr>
       <td><em>A Survey of Personalized Large Language Models: Progress and Future Directions</em></td>
-      <td>Jiahong Liu, Zexuan Qiu, Zhongyang Li, et al.</td>
+      <td>Jiahong Liu, Zexuan Qiu, Zhongyang Li, Quanyu Dai, Wenhao Yu, Jieming Zhu, Minda Hu, Menglin Yang, Tat-Seng Chua, Irwin King</td>
       <td><a href="https://doi.org/10.48550/arXiv.2502.11528">link</a></td>
       <td>2025</td>
       <td>arXiv preprint ArXiv:2502.11528</td>
@@ -1314,10 +1314,10 @@ To filter the table, start typing in the search box below; click any column head
     </tr>
     <tr>
       <td><em>Learning universal authorship representations</em></td>
-      <td>Rafael Rivera Soto, Olivia Elizabeth Miano, Juanita Ordonez, et al.</td>
-      <td><a href="https://doi.org/10.18653/v1/2020.wnut-1.30">link</a></td>
+      <td>Rafael A. Rivera-Soto, Olivia Elizabeth Miano, Juanita Ordonez, Barry Y. Chen, Aleem Khan, Marcus Bishop, Nicholas Andrews</td>
+      <td><a href="https://aclanthology.org/2021.emnlp-main.70/">link</a></td>
       <td>2021</td>
-      <td>EMNLP, pages 913–919</td>
+      <td>EMNLP, main paper</td>
     </tr>
     <tr>
       <td><em>My LLM might Mimic AAE - But When Should It?</em></td>
