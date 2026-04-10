@@ -1,6 +1,6 @@
 # StyleSurvey
 
-We provide seveal resources that you might find useful if you are interested in Style.
+We provide seveal resources that you might find useful if you are interested in style (representations).
 
 - [Quickstart with Models and Tools](resources/quickstart.md)
 - [Style Papers](resources/papers.md)
