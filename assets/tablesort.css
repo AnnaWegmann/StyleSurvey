@@ -27,8 +27,9 @@ table thead th[aria-sort="descending"]::after {
   top: 100%;
   left: 0;
   z-index: 10;
-  max-width: 400px;
-  max-height: 12em; /* ~8 lines; overflow handled below */
+  width: max-content;
+  max-width: min(640px, 90vw);
+  max-height: 14em;
   overflow: hidden;
   padding: 0.6rem 0.8rem;
   margin-top: 0.25rem;
@@ -41,9 +42,6 @@ table thead th[aria-sort="descending"]::after {
   line-height: 1.4;
   white-space: normal;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  /* Fade out the bottom so long abstracts visibly trail off instead of being cut flat */
-  -webkit-mask-image: linear-gradient(to bottom, #000 0, #000 calc(100% - 1.6em), transparent 100%);
-          mask-image: linear-gradient(to bottom, #000 0, #000 calc(100% - 1.6em), transparent 100%);
 }
 
 .has-tooltip:hover .tooltip {
