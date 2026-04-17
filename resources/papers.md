@@ -454,7 +454,7 @@ To filter the table, start typing in the search box below; click any column head
     <tr>
       <td><span class="has-tooltip"><em>Jocks and Burnouts: Social Categories and Identity in the High School</em><span class="tooltip">PLACEHOLDER</span></span></td>
       <td>Penelope Eckert</td>
-      <td><a href="https://doi.org/10.4324/9780203062821-8">link</a></td>
+      <td>-</td>
       <td>1989</td>
       <td>Teachers College Press</td>
     </tr>
@@ -515,8 +515,8 @@ To filter the table, start typing in the search box below; click any column head
       <td>Style and Sociolinguistic Variation, pages 44–56</td>
     </tr>
     <tr>
-      <td><span class="has-tooltip"><em>Olmo 3</em><span class="tooltip">PLACEHOLDER</span></span></td>
-      <td>Allyson Ettinger, Amanda Bertsch, Bailey Kuehl, et al.</td>
+      <td><span class="has-tooltip"><em>OLMo 3</em><span class="tooltip">PLACEHOLDER</span></span></td>
+      <td>Team OLMo, Allyson Ettinger, Amanda Bertsch, et al.</td>
       <td><a href="https://www.datocms-assets.com/64837/1763662397-1763646865-olmo_3_technical_report-1.pdf">link</a></td>
       <td>2025</td>
       <td>Technical Report</td>
@@ -559,7 +559,7 @@ To filter the table, start typing in the search box below; click any column head
     <tr>
       <td><span class="has-tooltip"><em>Speech Style and Social Evaluation</em><span class="tooltip">PLACEHOLDER</span></span></td>
       <td>Howard Giles and Peter F. Powesland</td>
-      <td><a href="https://doi.org/10.4324/9780203062821-8">link</a></td>
+      <td>-</td>
       <td>1975</td>
       <td>Academic Press</td>
     </tr>
@@ -685,7 +685,7 @@ To filter the table, start typing in the search box below; click any column head
     <tr>
       <td><span class="has-tooltip"><em>ParaGuide: Guided diffusion paraphrasers for plug-and-play textual style transfer</em><span class="tooltip">PLACEHOLDER</span></span></td>
       <td>Zachary Horvitz, Ajay Patel, Chris Callison-Burch, Zhou Yu, and Kathleen McKeown</td>
-      <td><a href="https://doi.org/10.14722/ndss.2019.23138">link</a></td>
+      <td><a href="https://doi.org/10.1609/aaai.v38i16.29780">link</a></td>
       <td>2024</td>
       <td>AAAI, pages 18216–18224</td>
     </tr>
@@ -713,7 +713,7 @@ To filter the table, start typing in the search box below; click any column head
     <tr>
       <td><span class="has-tooltip"><em>"You Sound Just Like Your Father" Commercial Machine Translation Systems Include Stylistic Biases</em><span class="tooltip">PLACEHOLDER</span></span></td>
       <td>Dirk Hovy, Federico Bianchi, and Tommaso Fornaciari</td>
-      <td><a href="https://doi.org/10.18653/v1/P16-2096">link</a></td>
+      <td><a href="https://aclanthology.org/2020.acl-main.154/">link</a></td>
       <td>2020</td>
       <td>ACL, pages 1686–1690</td>
     </tr>
@@ -818,7 +818,7 @@ To filter the table, start typing in the search box below; click any column head
     <tr>
       <td><span class="has-tooltip"><em>JGAAP 4.0–A revised authorship attribution tool</em><span class="tooltip">PLACEHOLDER</span></span></td>
       <td>Patrick Juola, John Noecker Jr., Mike Ryan, and Sandy Speer</td>
-      <td><a href="https://www.philocomp.net/texts/signature.htm">link</a></td>
+      <td><a href="https://github.com/evllabs/JGAAP">link</a></td>
       <td>2009</td>
       <td>Digital Humanities</td>
     </tr>
@@ -902,7 +902,7 @@ To filter the table, start typing in the search box below; click any column head
     <tr>
       <td><span class="has-tooltip"><em>Sociolinguistic Patterns</em><span class="tooltip">PLACEHOLDER</span></span></td>
       <td>William Labov</td>
-      <td><a href="https://doi.org/10.1017/CBO9780511618208">link</a></td>
+      <td>-</td>
       <td>1972</td>
       <td>University of Pennsylvania Press</td>
     </tr>
@@ -974,7 +974,7 @@ To filter the table, start typing in the search box below; click any column head
       <td>Hunter Lightman, Vineet Kosaraju, Yuri Burda, et al.</td>
       <td><a href="https://openreview.net/forum?id=v8L0pN6EOi">link</a></td>
       <td>2023</td>
-      <td>-</td>
+      <td>ICLR</td>
     </tr>
     <tr>
       <td><span class="has-tooltip"><em>Style over Substance: Distilled Language Models Reason Via Stylistic Replication</em><span class="tooltip">PLACEHOLDER</span></span></td>
@@ -1093,7 +1093,7 @@ To filter the table, start typing in the search box below; click any column head
       <td>Peter Millican</td>
       <td><a href="https://www.philocomp.net/texts/signature.htm">link</a></td>
       <td>2003</td>
-      <td>-</td>
+      <td>Software documentation, University of Oxford</td>
     </tr>
     <tr>
       <td><span class="has-tooltip"><em>State of what art? a call for multi-prompt LLM evaluation</em><span class="tooltip">PLACEHOLDER</span></span></td>
@@ -1154,7 +1154,7 @@ To filter the table, start typing in the search box below; click any column head
     <tr>
       <td><span class="has-tooltip"><em>"How old do you think I am?" A study of language and age in Twitter</em><span class="tooltip">PLACEHOLDER</span></span></td>
       <td>Dong Nguyen, Rilana Gravel, Dolf Trieschnigg, and Theo Meder</td>
-      <td><a href="https://www.aclweb.org/anthology/W13-3501.pdf">link</a></td>
+      <td><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/14381">link</a></td>
       <td>2013</td>
       <td>ICWSM, pages 439–448</td>
     </tr>
@@ -1300,21 +1300,21 @@ To filter the table, start typing in the search box below; click any column head
     </tr>
     <tr>
       <td><span class="has-tooltip"><em>Addressee- and topic-influenced style shift: A quantitative sociolinguistic study</em><span class="tooltip">PLACEHOLDER</span></span></td>
-      <td>John R. Rickford and McNair-Knox</td>
+      <td>John R. Rickford and Faye McNair-Knox</td>
       <td><a href="https://doi.org/10.1093/oso/9780195083644.003.0011">link</a></td>
       <td>1994</td>
       <td>Sociolinguistic Perspectives on Register, pages 235–276</td>
     </tr>
     <tr>
       <td><span class="has-tooltip"><em>Few-shot detection of machine-generated text using style representations</em><span class="tooltip">PLACEHOLDER</span></span></td>
-      <td>Rafael Rivera Soto, Kailin Koch, Aleem Khan, Barry Chen, Marcus Bishop, and Nicholas Andrews</td>
+      <td>Rafael Rivera-Soto, Kailin Koch, Aleem Khan, Barry Chen, Marcus Bishop, and Nicholas Andrews</td>
       <td><a href="https://iclr.cc/virtual/2024/poster/18293">link</a></td>
       <td>2024</td>
       <td>ICLR</td>
     </tr>
     <tr>
       <td><span class="has-tooltip"><em>Learning universal authorship representations</em><span class="tooltip">PLACEHOLDER</span></span></td>
-      <td>Rafael A. Rivera-Soto, Olivia Elizabeth Miano, Juanita Ordonez, Barry Y. Chen, Aleem Khan, Marcus Bishop, Nicholas Andrews</td>
+      <td>Rafael Rivera-Soto, Olivia Elizabeth Miano, Juanita Ordonez, Barry Y. Chen, Aleem Khan, Marcus Bishop, Nicholas Andrews</td>
       <td><a href="https://aclanthology.org/2021.emnlp-main.70/">link</a></td>
       <td>2021</td>
       <td>EMNLP, main paper</td>
@@ -1406,7 +1406,7 @@ To filter the table, start typing in the search box below; click any column head
     <tr>
       <td><span class="has-tooltip"><em>Dialect-robust evaluation of generated text</em><span class="tooltip">PLACEHOLDER</span></span></td>
       <td>Jiao Sun, Thibault Sellam, Elizabeth Clark, et al.</td>
-      <td><a href="https://doi.org/10.18653/v1/2023.findings-emnlp.916">link</a></td>
+      <td><a href="https://doi.org/10.18653/v1/2023.acl-long.331">link</a></td>
       <td>2023</td>
       <td>ACL, pages 6010–6028</td>
     </tr>
@@ -1429,7 +1429,7 @@ To filter the table, start typing in the search box below; click any column head
       <td>Ian Tenney, Patrick Xia, Berlin Chen, et al.</td>
       <td><a href="https://openreview.net/forum?id=SJzSgnRcKX">link</a></td>
       <td>2018</td>
-      <td>-</td>
+      <td>ICLR</td>
     </tr>
     <tr>
       <td><span class="has-tooltip"><em>Writing Style Author Embedding Evaluation</em><span class="tooltip">PLACEHOLDER</span></span></td>
@@ -1439,7 +1439,7 @@ To filter the table, start typing in the search box below; click any column head
       <td>Evaluation and Comparison of NLP Systems Workshop, pages 84–93</td>
     </tr>
     <tr>
-      <td><span class="has-tooltip"><em>Stayal | multilingual style transfer</em><span class="tooltip">PLACEHOLDER</span></span></td>
+      <td><span class="has-tooltip"><em>StAyaL | Multilingual Style Transfer</em><span class="tooltip">PLACEHOLDER</span></span></td>
       <td>Karishma Thakrar, Katrina Lawrence, and Kyle Howard</td>
       <td><a href="https://arxiv.org/abs/2501.11639">link</a></td>
       <td>2025</td>
@@ -1574,7 +1574,7 @@ To filter the table, start typing in the search box below; click any column head
     <tr>
       <td><span class="has-tooltip"><em>Personalization of Large Language Models: A Survey</em><span class="tooltip">PLACEHOLDER</span></span></td>
       <td>Zhehao Zhang, Ryan A. Rossi, Branislav Kveton, et al.</td>
-      <td><a href="https://doi.org/10.48550/arXiv.2412.10271">link</a></td>
+      <td><a href="https://openreview.net/forum?id=tf6A9EYMo6">link</a></td>
       <td>2025</td>
       <td>Transactions on Machine Learning Research</td>
     </tr>
