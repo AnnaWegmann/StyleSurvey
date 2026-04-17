@@ -34,6 +34,7 @@ def load_entries(bib_path: Path):
 
 def entry_to_row(entry):
   title = entry.get("title", "").replace("\n", " ").strip()
+  abstract = entry.get("abstract", "PLACEHOLDER").replace("\n", " ").strip() or "PLACEHOLDER"
   author = entry.get("author", "").replace("\n", " ").strip()
   year = entry.get("year", "").strip()
 
@@ -62,6 +63,7 @@ def entry_to_row(entry):
 
   return [
     esc(title),
+    esc(abstract),
     esc(author),
     link_cell,
     esc(year),
@@ -106,9 +108,9 @@ def build_markdown(entries):
   lines.append("  <tbody>")
 
   for e in entries:
-    title, authors, link_cell, year, venue = entry_to_row(e)
+    title, abstract, authors, link_cell, year, venue = entry_to_row(e)
     lines.append("    <tr>")
-    lines.append(f"      <td>{title}</td>")
+    lines.append(f'      <td><span class="has-tooltip"><em>{title}</em><span class="tooltip">{abstract}</span></span></td>')
     lines.append(f"      <td>{authors}</td>")
     lines.append(f"      <td>{link_cell}</td>")
     lines.append(f"      <td>{year}</td>")
