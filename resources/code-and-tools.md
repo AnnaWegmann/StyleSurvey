@@ -38,7 +38,7 @@
 | -------- | ---- | ----- |
 | Spanish | [Tulengua](https://tulengua.iatext.ulpgc.es/estilometria/) | [Carreras-Riudavets et al., 2025](https://doi.org/10.1080/23311983.2025.2451513) |
 | Multilingual Stylometry (Python and R) | [D33 (CLS-INFRA)](https://gitlab.clsinfra.io/cls-infra/d33) | Schöch et al., 2024 |
-| Historical Persian | [parsipy](https://github.com/openscilab/parsipy) | [Farsi et al., 2025](https://arxiv.org/pdf/2503.17810) |
+| Historical Persian | [parsipy](https://github.com/openscilab/parsipy) | [Farsi et al., 2025](https://arxiv.org/abs/2503.17810) |
 | Cross-language/bilingual | [DT-grams](https://git.uibk.ac.at/csak8736/gvdb2021-code) | [Murauer & Specht, 2021](https://ceur-ws.org/Vol-3075/paper7.pdf) |
 
 ### Papers using stylometry for languages other than English (no tools released)
@@ -60,17 +60,17 @@
 
 | Model | Link |
 | ----- | ---- |
-| CISR | https://huggingface.co/AnnaWegmann/Style-Embedding |
-| StyleDistance | https://huggingface.co/StyleDistance/styledistance |
-| mStyleDistance | https://huggingface.co/StyleDistance/mstyledistance |
-| LUAR | https://huggingface.co/rrivera1849/LUAR-MUD |
-| Multilingual Style Representation | https://huggingface.co/Blablablab/multilingual-style-representation-Llama-3.2 |
+| CISR | <https://huggingface.co/AnnaWegmann/Style-Embedding> |
+| StyleDistance | <https://huggingface.co/StyleDistance/styledistance> |
+| mStyleDistance | <https://huggingface.co/StyleDistance/mstyledistance> |
+| LUAR | <https://huggingface.co/rrivera1849/LUAR-MUD> |
+| Multilingual Style Representation | <https://huggingface.co/Blablablab/multilingual-style-representation-Llama-3.2> |
 
 ## Other Models
 
 | Model | Link |
 | ----- | ---- |
-| LISA | https://ajayp.app/posts/2023/11/learning-interpretable-embeddings-via-llms/ |
+| LISA | <https://ajayp.app/posts/2023/11/learning-interpretable-embeddings-via-llms/> |
 
 # Explanation tools
 
@@ -87,9 +87,9 @@
 
 | Project | Link |
 | ------ | ---- |
-| Learning Invariant Representations of Social Media Users | https://github.com/noa/iur |
-| A Deep Metric Learning Approach to Account Linking | https://github.com/noa/naacl2021 |
-| Style is NOT a single variable: Case Studies for Cross-Style Language Understanding | https://github.com/dykang/xslue|
-|  Does It Capture STEL? A Modular, Similarity-based Linguistic Style Evaluation Framework. | https://github.com/nlpsoc/STEL |
-|  On the State of the Art in Authorship Attribution and Authorship Verification | https://github.com/JacobTyo/Valla |
+| Learning Invariant Representations of Social Media Users | <https://github.com/noa/iur> |
+| A Deep Metric Learning Approach to Account Linking | <https://github.com/noa/naacl2021> |
+| Style is NOT a single variable: Case Studies for Cross-Style Language Understanding | <https://github.com/dykang/xslue> |
+| Does It Capture STEL? A Modular, Similarity-based Linguistic Style Evaluation Framework | <https://github.com/nlpsoc/STEL> |
+| On the State of the Art in Authorship Attribution and Authorship Verification | <https://github.com/JacobTyo/Valla> |
 
