@@ -14,6 +14,7 @@
 | Writeprints+ (PAN authorship verification) | [Weerasinghe and Greenstadt, 2020](https://github.com/janithnw/pan2020_authorship_verification) |
 | PAN style change detection | [Strøm, 2021](https://github.com/eivistr/pan21-style-change-detection-stacking-ensemble), [Zuo et al., 2019](https://github.com/chzuo/PAN_2019), [Zlatkova et al., 2018](https://github.com/machinelearning-su/style-change-detection) |
 | elfen (Efficient Linguistic Feature Extraction) | [Maurer, 2026](https://github.com/mmmaurer/elfen) ([paper](https://aclanthology.org/2026.eacl-demo.5/)) |
+| gram2vec | [Sclafani et al., 2024](https://github.com/eric-sclafani/gram2vec) ([paper](https://arxiv.org/abs/2406.12131)) |
 
 ### Other less comprehensive stylometry tools
 
