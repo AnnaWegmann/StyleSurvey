@@ -46,6 +46,18 @@
 
       const tbody = table.tBodies[0] || table;
 
+      // Build a per-row search string that excludes tooltip/abstract text.
+      // Tooltips are rendered inside `<span class="tooltip">…</span>` — their
+      // content (paper abstracts) contains phrases like "Devlin et al." that
+      // would otherwise pollute searches over titles/authors/venues.
+      const rowSearchText = new WeakMap();
+      function indexRow(row) {
+        const clone = row.cloneNode(true);
+        clone.querySelectorAll(".tooltip").forEach((n) => n.remove());
+        rowSearchText.set(row, clone.textContent.toLowerCase());
+      }
+      Array.from(tbody.querySelectorAll("tr")).forEach(indexRow);
+
       input.addEventListener("input", function () {
         const query = this.value.trim().toLowerCase();
         // Split the query on whitespace; each token must be present in the row
@@ -55,7 +67,11 @@
         const rows = Array.from(tbody.querySelectorAll("tr"));
 
         rows.forEach((row) => {
-          const text = row.textContent.toLowerCase();
+          let text = rowSearchText.get(row);
+          if (text === undefined) {
+            indexRow(row);
+            text = rowSearchText.get(row);
+          }
           const match = tokens.length === 0 || tokens.every((t) => text.indexOf(t) !== -1);
           row.style.display = match ? "" : "none";
         });
