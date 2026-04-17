@@ -42,6 +42,7 @@
 | Cross-language/bilingual | [DT-grams](https://git.uibk.ac.at/csak8736/gvdb2021-code) | [Murauer & Specht, 2021](https://ceur-ws.org/Vol-3075/paper7.pdf) |
 
 ### Papers using stylometry for languages other than English (no tools released)
+
 | Language | Features | Paper |
 | -------- | -------- | ----- |
 | Latin | POS tag features | [Chen et al., 2024](https://aclanthology.org/2024.ml4al-1.24.pdf) |
