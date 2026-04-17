@@ -68,7 +68,7 @@ To filter the table, start typing in the search box below; click any column head
     </tr>
     <tr>
       <td><span class="has-tooltip"><em>SmolLM2: When Smol Goes Big — Data-Centric Training of a Fully Open Small Language Model</em><span class="tooltip">Large language models, while groundbreaking, are computationally expensive and difficult to deploy in resource-constrained settings. To address this challenge, small language models have emerged, but their performance critically depends on the quality and composition of the pretraining datasets—yet many recent models, such as Qwen2.5-1.5B and Llama3.2-1B, remain opaque about their training data, limiting reproducibility and scientific understanding. In this paper, we document and publicly release SmolLM2, a fully transparent state-of-the-art ``small&#x27;&#x27; (1.7 billion parameter) language model (LM), along with its training datasets and code. To attain strong performance, we overtrain SmolLM2 on 11 trillion tokens of data using a multi-stage training process that mixes web text with specialized math, code, and instruction-following data. We additionally curate and release new specialized datasets (FineMath, Stack-Edu, and SmolTalk) at stages where we found existing datasets to be problematically small or low-quality. To inform our design decisions, we perform both small-scale ablations and a manual refinement process that updates the dataset mixing rates at each stage based on the performance at the previous one. Ultimately, we demonstrate that SmolLM2 outperforms other recent small LMs including Qwen2.5-1.5B, Llama3.2-1B, and Falcon3-1.6B. By releasing our model, datasets, and code, we aim to facilitate future research on LM development as well as applications of small LMs.</span></span></td>
-      <td>Loubna Ben Allal, Anton Lozhkov, Elie Bakouch, et al.</td>
+      <td>Team SmolLM, Loubna Ben Allal, Anton Lozhkov, Elie Bakouch, et al.</td>
       <td><a href="https://openreview.net/forum?id=3JiCl2A14H#discussion">link</a></td>
       <td>2025</td>
       <td>COLM</td>
@@ -138,7 +138,7 @@ To filter the table, start typing in the search box below; click any column head
     </tr>
     <tr>
       <td><span class="has-tooltip"><em>Efficient Large Scale Language Modeling with Mixtures of Experts</em><span class="tooltip">Mixture of Experts layers (MoEs) enable efficient scaling of language models through conditional computation. This paper presents a detailed empirical study of how autoregressive MoE language models scale in comparison with dense models in a wide range of settings: in- and out-of-domain language modeling, zero- and few-shot priming, and full-shot fine-tuning. With the exception of fine-tuning, we find MoEs to be substantially more compute efficient. At more modest training budgets, MoEs can match the performance of dense models using ~4 times less compute. This gap narrows at scale, but our largest MoE model (1.1T parameters) consistently outperforms a compute-equivalent dense model (6.7B parameters). Overall, this performance gap varies greatly across tasks and domains, suggesting that MoE and dense models generalize differently in ways that are worthy of future study. We make our code and models publicly available for research use.</span></span></td>
-      <td>Mikel Artetxe, Shruti Bhosale, Naman Goyal, et al.</td>
+      <td>Meta AI, Mikel Artetxe, Shruti Bhosale, Naman Goyal, et al.</td>
       <td><a href="https://doi.org/10.18653/v1/2022.emnlp-main.804">link</a></td>
       <td>2022</td>
       <td>EMNLP, pages 11699–11732</td>
@@ -166,7 +166,7 @@ To filter the table, start typing in the search box below; click any column head
     </tr>
     <tr>
       <td><span class="has-tooltip"><em>Measuring what Matters: Construct Validity in Large Language Model Benchmarks</em><span class="tooltip">Evaluating large language models (LLMs) is crucial for both assessing their capabilities and identifying safety or robustness issues prior to deployment. Reliably measuring abstract and complex phenomena such as `safety&#x27; and `robustness&#x27; requires strong construct validity, that is, having measures that represent what matters to the phenomenon. With a team of 29 expert reviewers, we conduct a systematic review of 445 LLM benchmarks from leading conferences in natural language processing and machine learning. Across the reviewed articles, we find patterns related to the measured phenomena, tasks, and scoring metrics which undermine the validity of the resulting claims. To address these shortcomings, we provide eight key recommendations and detailed actionable guidance to researchers and practitioners in developing LLM benchmarks.</span></span></td>
-      <td>Andrew M. Bean, Ryan Othniel Kearns, Angelika Romanou, et al.</td>
+      <td>Andrew M. Bean, Ryan Othniel Kearns, Angelika Romanou, Franziska Sofia Hafner, Harry Mayne, Jan Batzner, Negar Foroutan, Chris Schmitz, Karolina Korgul, Hunar Batra, Oishi Deb, Emma Beharry, Cornelius Emde, Thomas Foster, Anna Gausen, María Grandury, Simeng Han, Valentin Hofmann, Lujain Ibrahim, Hazel Kim, et al.</td>
       <td><a href="https://openreview.net/forum?id=mdA5lVvNcU">link</a></td>
       <td>2025</td>
       <td>NeurIPS</td>
@@ -194,7 +194,7 @@ To filter the table, start typing in the search box below; click any column head
     </tr>
     <tr>
       <td><span class="has-tooltip"><em>Overview of PAN 2025: Generative AI Detection, Multilingual Text Detoxification, Multi-author Writing Style Analysis, and Generative Plagiarism Detection</em><span class="tooltip">PLACEHOLDER</span></span></td>
-      <td>Janek Bevendorff, Daryna Dementieva, Maik Fröbe, et al.</td>
+      <td>Janek Bevendorff, Daryna Dementieva, Maik Fröbe, Bela Gipp, André Greiner-Petter, Jussi Karlgren, Maximilian Mayerl, Preslav Nakov, Alexander Panchenko, Martin Potthast, Artem Shelmanov, Efstathios Stamatatos, Benno Stein, Yuxia Wang, Matti Wiegmann, and Eva Zangerle</td>
       <td><a href="https://doi.org/10.1007/978-3-031-88720-8_64">link</a></td>
       <td>2025</td>
       <td>Advances in Information Retrieval, pages 434–441</td>
@@ -502,7 +502,7 @@ To filter the table, start typing in the search box below; click any column head
     </tr>
     <tr>
       <td><span class="has-tooltip"><em>MMTEB: Massive Multilingual Text Embedding Benchmark</em><span class="tooltip">Text embeddings are typically evaluated on a narrow set of tasks, limited in terms of languages, domains, and task types. To circumvent this limitation and to provide a more comprehensive evaluation, we introduce the Massive Multilingual Text Embedding Benchmark (MMTEB) -- a large-scale community-driven initiative expanding MTEB to over 500 quality-controlled evaluation tasks across 1,000+ languages. MMTEB includes a wide range of challenging novel tasks such as instruction following, long-document retrieval, and code retrieval, and represents the largest multilingual collection of evaluation tasks for embedding models to date. We use this collection to construct multiple highly multilingual benchmarks. We evaluate a representative set of models on these benchmarks. Our findings indicate that, while LLM-based models can achieve state-of-the-art performance on a subset of languages, the best-performing publicly available model across languages is the notably smaller, multilingual-e5-large-instruct. Massive benchmarks often impose high computational demands, limiting accessibility, particularly for low-resource communities. To address this, we downsample tasks based on inter-task correlation (i.e., selecting only a diverse set of tasks) while preserving relative rankings. We further optimize tasks such as retrieval by sampling hard negatives, creating smaller but effective splits. These optimizations allow us to introduce benchmarks at a significantly lower computational cost. For instance, we introduce a new zero-shot English benchmark that maintains a similar ordering at a fraction of the cost.</span></span></td>
-      <td>Kenneth Enevoldsen, Isaac Chung, Imene Kerboua, et al.</td>
+      <td>Team MMTEB, Kenneth Enevoldsen, Isaac Chung, Imene Kerboua, et al.</td>
       <td><a href="https://openreview.net/forum?id=zl3pfz4VCV&trk=public_post_comment-text">link</a></td>
       <td>2024</td>
       <td>ICLR</td>
@@ -516,7 +516,7 @@ To filter the table, start typing in the search box below; click any column head
     </tr>
     <tr>
       <td><span class="has-tooltip"><em>OLMo 3</em><span class="tooltip">PLACEHOLDER</span></span></td>
-      <td>Allyson Ettinger, Amanda Bertsch, Bailey Kuehl, et al.</td>
+      <td>Team OLMo, Allyson Ettinger, Amanda Bertsch, Bailey Kuehl, et al.</td>
       <td><a href="https://www.datocms-assets.com/64837/1763662397-1763646865-olmo_3_technical_report-1.pdf">link</a></td>
       <td>2025</td>
       <td>Technical Report</td>
@@ -915,7 +915,7 @@ To filter the table, start typing in the search box below; click any column head
     </tr>
     <tr>
       <td><span class="has-tooltip"><em>Tulu 3: Pushing Frontiers in Open Language Model Post-Training</em><span class="tooltip">Language model post-training is applied to refine behaviors and unlock new skills across a wide range of recent language models, but open recipes for applying these techniques lag behind proprietary ones. The underlying training data and recipes for post-training are simultaneously the most important pieces of the puzzle and the portion with the least transparency. To bridge this gap, we introduce Tulu 3, a family of fully-open state-of-the-art post-trained models, alongside its data, code, and training recipes, serving as a comprehensive guide for modern post-training techniques. Tulu 3, which builds on Llama 3.1 base models, achieves results surpassing the instruct versions of Llama 3.1, Qwen 2.5, Mistral, and even closed models such as GPT-4o-mini and Claude 3.5-Haiku. The training algorithms for our models include supervised finetuning (SFT), Direct Preference Optimization (DPO), and a novel method we call Reinforcement Learning with Verifiable Rewards (RLVR). With Tulu 3, we introduce a multi-task evaluation scheme for post-training recipes with development and unseen evaluations, standard benchmark implementations, and substantial decontamination of existing open datasets on said benchmarks. We conclude with analysis and discussion of training methods that did not reliably improve performance. In addition to the Tulu 3 model weights and demo, we release the complete recipe -- including datasets for diverse core skills, a robust toolkit for data curation and evaluation, the training code and infrastructure, and, most importantly, a detailed report for reproducing and further adapting the Tulu 3 approach to more domains.</span></span></td>
-      <td>Nathan Lambert, Jacob Morrison, Valentina Pyatkin, et al.</td>
+      <td>Team Tulu, Nathan Lambert, Jacob Morrison, Valentina Pyatkin, et al.</td>
       <td><a href="https://doi.org/10.48550/arXiv.2411.15124">link</a></td>
       <td>2025</td>
       <td>arXiv preprint ArXiv:2411.15124</td>
@@ -1013,14 +1013,14 @@ To filter the table, start typing in the search box below; click any column head
     </tr>
     <tr>
       <td><span class="has-tooltip"><em>More than words: The influence of affective content and linguistic style matches in online reviews on conversion rates</em><span class="tooltip">Customers increasingly rely on other consumers&#x27; reviews to make purchase decisions online. New insights into the customer review phenomenon can be derived from studying the semantic content and style properties of verbatim customer reviews to examine their influence on online retail sites&#x27; conversion rates. The authors employ text mining to extract changes in affective content and linguistic style properties of customer book reviews on Amazon.com . A dynamic panel data model reveals that the influence of positive affective content on conversion rates is asymmetrical, such that greater increases in positive affective content in customer reviews have a smaller effect on subsequent increases in conversion rate. No such tapering-off effect occurs for changes in negative affective content in reviews. Furthermore, positive changes in affective cues and increasing congruence with the product interest group&#x27;s typical linguistic style directly and conjointly increase conversion rates. These findings suggest that managers should identify and promote the most influential reviews in a given product category, provide instructions to stimulate reviewers to write powerful reviews, and adapt the style of their own editorial reviews to the relevant product category.</span></span></td>
-      <td>Stephan Ludwig, Ko de Ruyter, Max Friedman, et al.</td>
+      <td>Stephan Ludwig, Ko de Ruyter, Max Friedman, Elisabeth Constantin Brüggen, Martin Wetzels, and Gerard Pfann</td>
       <td><a href="https://doi.org/10.1509/jm.11.0560">link</a></td>
       <td>2013</td>
       <td>Journal of Marketing, 77(1):87–103</td>
     </tr>
     <tr>
       <td><span class="has-tooltip"><em>Politeness transfer: A tag and generate approach</em><span class="tooltip">This paper introduces a new task of politeness transfer which involves converting non-polite sentences to polite sentences while preserving the meaning. We also provide a dataset of more than 1.39 instances automatically labeled for politeness to encourage benchmark evaluations on this new task. We design a tag and generate pipeline that identifies stylistic attributes and subsequently generates a sentence in the target style while preserving most of the source content. For politeness as well as five other transfer tasks, our model outperforms the state-of-the-art methods on automatic metrics for content preservation, with a comparable or better performance on style transfer accuracy. Additionally, our model surpasses existing methods on human evaluations for grammaticality, meaning preservation and transfer accuracy across all the six style transfer tasks. The data and code is located at &lt;a href=https://github.com/tag-and-generate class=acl-markup-url&gt;https://github.com/tag-and-generate&lt;/a&gt;.</span></span></td>
-      <td>Aman Madaan, Amrith Setlur, Tanmay Parekh, et al.</td>
+      <td>Aman Madaan, Amrith Setlur, Tanmay Parekh, Barnabas Poczos, Graham Neubig, Yiming Yang, Ruslan Salakhutdinov, Alan W Black, and Shrimai Prabhumoye</td>
       <td><a href="https://doi.org/10.18653/v1/2020.acl-main.169">link</a></td>
       <td>2020</td>
       <td>ACL, pages 1869–1881</td>
@@ -1230,7 +1230,7 @@ To filter the table, start typing in the search box below; click any column head
     </tr>
     <tr>
       <td><span class="has-tooltip"><em>StyleDistance: Stronger content-independent style embeddings with synthetic parallel examples</em><span class="tooltip">Style representations aim to embed texts with similar writing styles closely and texts with different styles far apart, regardless of content. However, the contrastive triplets often used for training these representations may vary in both style and content, leading to potential content leakage in the representations. We introduce StyleDistance, a novel approach to training stronger content-independent style embeddings. We use a large language model to create a synthetic dataset of near-exact paraphrases with controlled style variations, and produce positive and negative examples across 40 distinct style features for precise contrastive learning. We assess the quality of our synthetic data and embeddings through human and automatic evaluations. StyleDistance enhances the content-independence of style embeddings, which generalize to real-world benchmarks and outperform leading style representations in downstream applications.</span></span></td>
-      <td>Ajay Patel, Jiacheng Zhu, Justin Qiu, et al.</td>
+      <td>Ajay Patel, Jiacheng Zhu, Justin Qiu, Zachary Horvitz, Marianna Apidianaki, Kathleen McKeown, and Chris Callison-Burch</td>
       <td><a href="https://doi.org/10.18653/v1/2025.naacl-long.436">link</a></td>
       <td>2025</td>
       <td>NAACL, pages 8662–8685</td>
@@ -1573,7 +1573,7 @@ To filter the table, start typing in the search box below; click any column head
     </tr>
     <tr>
       <td><span class="has-tooltip"><em>Personalization of Large Language Models: A Survey</em><span class="tooltip">Personalization of Large Language Models (LLMs) has recently become increasingly important with a wide range of applications. Despite the importance and recent progress, most existing works on personalized LLMs have focused either entirely on (a) personalized text generation or (b) leveraging LLMs for personalization-related downstream applications, such as recommendation systems. In this work, we bridge the gap between these two separate main directions for the first time by introducing a taxonomy for personalized LLM usage and summarizing the key differences and challenges. We provide a formalization of the foundations of personalized LLMs that consolidates and expands notions of personalization of LLMs, defining and discussing novel facets of personalization, usage, and desiderata of personalized LLMs. We then unify the literature across these diverse fields and usage scenarios by proposing systematic taxonomies for the granularity of personalization, personalization techniques, datasets, evaluation methods, and applications of personalized LLMs. Finally, we highlight challenges and important open problems that remain to be addressed. By unifying and surveying recent research using the proposed taxonomies, we aim to provide a clear guide to the existing literature and different facets of personalization in LLMs, empowering both researchers and practitioners.</span></span></td>
-      <td>Zhehao Zhang, Ryan A. Rossi, Branislav Kveton, et al.</td>
+      <td>Zhehao Zhang, Ryan A. Rossi, Branislav Kveton, Yijia Shao, Diyi Yang, Hamed Zamani, Franck Dernoncourt, Joe Barrow, Tong Yu, Sungchul Kim, Ruiyi Zhang, Jiuxiang Gu, Tyler Derr, Hongjie Chen, Junda Wu, Xiang Chen, Zichao Wang, Subrata Mitra, Nedim Lipka, Nesreen K. Ahmed, and Yu Wang</td>
       <td><a href="https://openreview.net/forum?id=tf6A9EYMo6">link</a></td>
       <td>2025</td>
       <td>Transactions on Machine Learning Research</td>
@@ -1601,7 +1601,7 @@ To filter the table, start typing in the search box below; click any column head
     </tr>
     <tr>
       <td><span class="has-tooltip"><em>StyleFlow: Disentangle latent representations via normalizing flow for unsupervised text style transfer</em><span class="tooltip">Unsupervised text style transfer aims to modify the style of a sentence while preserving its content without parallel corpora. Existing approaches attempt to separate content from style, but some words contain both content and style information. It makes them difficult to disentangle, where unsatisfactory disentanglement results in the loss of the content information or the target style. To address this issue, researchers adopted a “cycle reconstruction” mechanism to maintain content information, but it is still hard to achieve satisfactory content preservation due to incomplete disentanglement. In this paper, we propose a new disentanglement-based method, StyleFlow, which effectively avoids the loss of contents through a better cycle reconstruction via a reversible encoder. The reversible encoder is a normalizing flow that can not only produce output given input but also infer the exact input given the output reversely. We design a stack of attention-aware coupling layers, where each layer is reversible and adopts the attention mechanism to improve the content-style disentanglement. Moreover, we propose a data augmentation method based on normalizing flow to enhance the training data. Our experiments on sentiment transfer and formality transfer tasks show that StyleFlow outperforms strong baselines on both content preservation and style transfer.</span></span></td>
-      <td>Kangchen Zhu, Zhiliang Tian, Jingyu Wei, et al.</td>
+      <td>Kangchen Zhu, Zhiliang Tian, Jingyu Wei, Ruifeng Luo, Yiping Song, and Xiaoguang Mao</td>
       <td><a href="https://aclanthology.org/2024.lrec-main.1336/">link</a></td>
       <td>2024</td>
       <td>LREC-COLING 2024, pages 15384–15397</td>

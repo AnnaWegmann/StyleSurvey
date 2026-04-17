@@ -48,11 +48,15 @@
 
       input.addEventListener("input", function () {
         const query = this.value.trim().toLowerCase();
+        // Split the query on whitespace; each token must be present in the row
+        // (AND match). So e.g. "universal soto" matches a row whose text
+        // contains both "universal" and "soto" in any order or position.
+        const tokens = query ? query.split(/\s+/).filter(Boolean) : [];
         const rows = Array.from(tbody.querySelectorAll("tr"));
 
         rows.forEach((row) => {
           const text = row.textContent.toLowerCase();
-          const match = !query || text.indexOf(query) !== -1;
+          const match = tokens.length === 0 || tokens.every((t) => text.indexOf(t) !== -1);
           row.style.display = match ? "" : "none";
         });
       });
