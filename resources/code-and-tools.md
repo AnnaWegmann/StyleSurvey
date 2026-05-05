@@ -9,7 +9,7 @@
 | LIWC | [Pennebaker et al., 2015](https://www.liwc.app/)                                                                                                                                                                                       |
 | LFTK | [Lee and Lee, 2023](https://github.com/brucewlee/lftk)                                                                                                                                                                                 |
 | NeuroBiber | [Alkiek et al., 2025](https://github.com/davidjurgens/biberplus)                                                                                                                                                                       |
-| Multidimensional Analysis Tool (MAT) | [Nini, 2019](https://github.com/andreanini/multidimensionalanalysistagger)                                                                                                                                                             |
+| Multidimensional Analysis Tagger (MAT) | [Nini, 2019](https://github.com/andreanini/multidimensionalanalysistagger)                                                                                                                                                             |
 | StyloSpeaker (for speakers in speech transcripts) | [Aggazzotti et al., 2025](https://github.com/caggazzotti/styloSpeaker)                                                                                                                                                                 |
 | Writeprints+ (PAN authorship verification) | [Weerasinghe and Greenstadt, 2020](https://github.com/janithnw/pan2020_authorship_verification)                                                                                                                                        |
 | PAN style change detection | [Strøm, 2021](https://github.com/eivistr/pan21-style-change-detection-stacking-ensemble), [Zuo et al., 2019](https://github.com/chzuo/PAN_2019), [Zlatkova et al., 2018](https://github.com/machinelearning-su/style-change-detection) |
@@ -31,6 +31,7 @@
 | JStylo (Java) | [PSAL, 2013](https://github.com/psal/jstylo) |
 | Coh-Metrix (for text cohesion and readability) | [Graesser et al., 2004](https://soletlab.asu.edu/coh-metrix/) |
 | Signature | [Millican, 2003](https://www.philocomp.net/texts/signature.htm) |
+| idiolect (R) | [Nini, 2026](https://andreanini.github.io/idiolect/index.html)
 
 ## Tools for languages other than English  
 
