@@ -8,6 +8,7 @@
 | ---- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | LIWC | [Pennebaker et al., 2015](https://www.liwc.app/)                                                                                                                                                                                       |
 | LFTK | [Lee and Lee, 2023](https://github.com/brucewlee/lftk)                                                                                                                                                                                 |
+| StyloMetrix | [Okulska et al., 2023](https://github.com/NASK-NLP/StyloMetrix)                                                                                                                                                                 |
 | NeuroBiber | [Alkiek et al., 2025](https://github.com/davidjurgens/biberplus)                                                                                                                                                                       |
 | Multidimensional Analysis Tool (MAT) | [Nini, 2019](https://github.com/andreanini/multidimensionalanalysistagger)                                                                                                                                                             |
 | StyloSpeaker (for speakers in speech transcripts) | [Aggazzotti et al., 2025](https://github.com/caggazzotti/styloSpeaker)                                                                                                                                                                 |
@@ -40,6 +41,7 @@
 | Multilingual Stylometry (Python and R) | [D33 (CLS-INFRA)](https://gitlab.clsinfra.io/cls-infra/d33) | Schöch et al., 2024 |
 | Historical Persian | [parsipy](https://github.com/openscilab/parsipy) | [Farsi et al., 2025](https://arxiv.org/abs/2503.17810) |
 | Cross-language/bilingual | [DT-grams](https://git.uibk.ac.at/csak8736/gvdb2021-code) | [Murauer & Specht, 2021](https://ceur-ws.org/Vol-3075/paper7.pdf) |
+| German/Polish/Russian/Ukranian | [StyloMetrix](https://github.com/NASK-NLP/StyloMetrix) | [Okulska et al., 2023](https://arxiv.org/pdf/2309.12810) |
 
 ### Papers using stylometry for languages other than English (no tools released)
 
