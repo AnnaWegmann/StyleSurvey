@@ -61,13 +61,14 @@
 
 ## Huggingface Models
 
-| Model | Link |
-| ----- | ---- |
-| CISR | <https://huggingface.co/AnnaWegmann/Style-Embedding> |
-| StyleDistance | <https://huggingface.co/StyleDistance/styledistance> |
-| mStyleDistance | <https://huggingface.co/StyleDistance/mstyledistance> |
-| LUAR | <https://huggingface.co/rrivera1849/LUAR-MUD> |
-| Multilingual Style Representation | <https://huggingface.co/Blablablab/multilingual-style-representation-Llama-3.2> |
+| Model | Model Link | Publication | 
+| ----- | ---------- | ----------- |
+| CISR | <https://huggingface.co/AnnaWegmann/Style-Embedding> | <https://aclanthology.org/2022.repl4nlp-1.26/> |
+| StyleDistance | <https://huggingface.co/StyleDistance/styledistance> | <https://aclanthology.org/2025.naacl-long.436/> |
+| mStyleDistance | <https://huggingface.co/StyleDistance/mstyledistance> | <https://aclanthology.org/2025.findings-acl.869/> |
+| LUAR | <https://huggingface.co/rrivera1849/LUAR-MUD> | <https://aclanthology.org/2021.emnlp-main.70/> |
+| Multilingual Style Representation | <https://huggingface.co/Blablablab/multilingual-style-representation-Llama-3.2> | <https://aclanthology.org/2025.emnlp-main.1766/> |
+| STAR | <https://huggingface.co/AIDA-UPM/star> | <https://doi.org/10.1016/j.knosys.2024.111867> |
 
 ## Other Models
 
