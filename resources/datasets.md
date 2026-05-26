@@ -52,6 +52,7 @@ Note that several commonly used datasets in the 2010s and before might not be ac
 | MADAR Parallel Corpus | Arabic dialects (25 cities), travel domain | [dataset page](https://camel.abudhabi.nyu.edu/madar-parallel-corpus/) | [Bouamor et al. 2018](https://aclanthology.org/L18-1535/) | Dialect Identification, Authorship Attribution | ✓ (request via Google form, research license) | ~12k parallel sentences across up to 25 dialects |
 | DSL-ML 2024 | VarDial 2024, Spanish, English, Portuguese, French, different domains | [github](https://github.com/yvesscherrer/DSL-ML-2024) | [Chifu et al. 2024](https://aclanthology.org/2024.vardial-1.1/) | Dialect Identification | ✓ | |
 | IDIOLEX evaluation sets | Arabic and Spanish dialects (idiolectal/dialectal variation) | [github](https://github.com/AnjaliRuban/IdioleX/tree/main/data/evalsets) | [Kantharuban et al. 2026](https://arxiv.org/abs/2604.04704) | Dialect Identification, Authorship Attribution, Idiolectal Representation | ✓ (MIT license) | — |
+| LambdaG content-masked datasets | Mixed genres (Enron emails, Wikipedia, Perverted Justice conversations, Apricity forum, TripAdvisor reviews, blogs); content-masked with POSnoise | [github](https://github.com/AndreaNini/LambdaG) (Zenodo DOIs linked from repo) | [Nini et al., 2026](https://doi.org/10.1057/s41599-025-06340-3) | Authorship Verification | ✓ (MIT for code; individual datasets via Zenodo) | 6 content-masked datasets across genres |
 
 
 
