@@ -18,7 +18,11 @@ If you find these resources useful, consider citing our paper.
 
 ```latex
 @inproceedings{
-	title={An Awesome Paper}
+	title={A Survey on Representing Linguistic Style: {C}hallenges and Opportunities},
+	url = {https://annawegmann.github.io/pdf/Style_Survey_preprint.pdf},
+	author = {Wegmann, Anna and Aggazzotti, Cristina and Soto, Rafael Rivera and Nguyen, Dong},
+	year = {2026},
+    booktitle = {To appear at EMNLP 2026}
 }
 ```
 
