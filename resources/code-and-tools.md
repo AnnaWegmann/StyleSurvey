@@ -61,14 +61,15 @@
 
 ## Huggingface Models
 
-| Model | Model Link | Publication | 
-| ----- | ---------- | ----------- |
-| CISR | <https://huggingface.co/AnnaWegmann/Style-Embedding> | <https://aclanthology.org/2022.repl4nlp-1.26/> |
-| StyleDistance | <https://huggingface.co/StyleDistance/styledistance> | <https://aclanthology.org/2025.naacl-long.436/> |
-| mStyleDistance | <https://huggingface.co/StyleDistance/mstyledistance> | <https://aclanthology.org/2025.findings-acl.869/> |
-| LUAR | <https://huggingface.co/rrivera1849/LUAR-MUD> | <https://aclanthology.org/2021.emnlp-main.70/> |
-| Multilingual Style Representation | <https://huggingface.co/Blablablab/multilingual-style-representation-Llama-3.2> | <https://aclanthology.org/2025.emnlp-main.1766/> |
-| STAR | <https://huggingface.co/AIDA-UPM/star> | <https://doi.org/10.1016/j.knosys.2024.111867> |
+| Model | Model Link | Publication | Notes                               |
+| ----- | ---------- | ----------- |-------------------------------------|
+| CISR | <https://huggingface.co/AnnaWegmann/Style-Embedding> | <https://aclanthology.org/2022.repl4nlp-1.26/> |                                     |
+| StyleDistance | <https://huggingface.co/StyleDistance/styledistance> | <https://aclanthology.org/2025.naacl-long.436/> |                                     |
+| mStyleDistance | <https://huggingface.co/StyleDistance/mstyledistance> | <https://aclanthology.org/2025.findings-acl.869/> |                                     |
+| LUAR | <https://huggingface.co/rrivera1849/LUAR-MUD> | <https://aclanthology.org/2021.emnlp-main.70/> |                                     |
+| Multilingual Style Representation | <https://huggingface.co/Blablablab/multilingual-style-representation-Llama-3.2> | <https://aclanthology.org/2025.emnlp-main.1766/> |                                     |
+| STAR | <https://huggingface.co/AIDA-UPM/star> | <https://doi.org/10.1016/j.knosys.2024.111867> |                                     |
+| StyleJudge  | <https://huggingface.co/VibrantVista/gte-large-en-v1.5-stylejudge> | <https://aclanthology.org/2026.conll-main.31/> | trained for as as GRPO reward model |
 
 ## Other Models
 
@@ -89,11 +90,11 @@
 
 <link rel="stylesheet" href="../assets/tablesort.css">
 
-| Project | Link |
-| ------ | ---- |
-| Learning Invariant Representations of Social Media Users | <https://github.com/noa/iur> |
-| A Deep Metric Learning Approach to Account Linking | <https://github.com/noa/naacl2021> |
-| Style is NOT a single variable: Case Studies for Cross-Style Language Understanding | <https://github.com/dykang/xslue> |
-| Does It Capture STEL? A Modular, Similarity-based Linguistic Style Evaluation Framework | <https://github.com/nlpsoc/STEL> |
-| On the State of the Art in Authorship Attribution and Authorship Verification | <https://github.com/JacobTyo/Valla> |
-
+| Project | Link | Description |
+| ------ | ---- | ----------- |
+| Learning Invariant Representations of Social Media Users | <https://github.com/noa/iur> | |
+| A Deep Metric Learning Approach to Account Linking | <https://github.com/noa/naacl2021> | |
+| Style is NOT a single variable: Case Studies for Cross-Style Language Understanding | <https://github.com/dykang/xslue> | |
+| Does It Capture STEL? A Modular, Similarity-based Linguistic Style Evaluation Framework | <https://github.com/nlpsoc/STEL> | |
+| On the State of the Art in Authorship Attribution and Authorship Verification | <https://github.com/JacobTyo/Valla> | |
+| Capturing Classic Authorial Style in Long-Form Story Generation with GRPO Fine-Tuning | <https://github.com/Vince-Liuss/literary_style_model> | Style-conditioned long-form story generation: trains a style-similarity judge on authorship-verification data, then uses it as a GRPO reward to fine-tune an 8B generator; four per-author models (Twain, Austen, Dickens, Hardy) on [HuggingFace](https://huggingface.co/VibrantVista) |

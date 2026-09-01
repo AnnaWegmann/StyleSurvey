@@ -1,14 +1,14 @@
-## Papers and works from the Style Survey
+## Style Papers
 
-*We welcome contributions via GitHub issues or pull requests to collect relevant style papers that are not mentioned in our survey.* Note that this list includes all references from our survey which includes works that might not be directly related to style or style representations. 
+*We welcome contributions via GitHub issues or pull requests to collect relevant style papers.* Note that this list includes all references from our survey plus contributed papers, so it includes works that might not be directly related to style or style representations.
 
-This page is intended to list the references from the Style Survey paper as a **sortable, searchable table**.
+This page lists style-related papers as a **sortable, searchable table**.
 
 To filter the table, start typing in the search box below; click any column header to sort.
 
 <input
   type="search"
-  placeholder="Filter by title, author, year, venue…"
+  placeholder="Filter by title, author, abstract, year, venue…"
   data-table-filter="#papers-table"
   style="width: 100%; padding: 0.4rem; margin: 0.5rem 0;"
 />
@@ -1005,6 +1005,13 @@ To filter the table, start typing in the search box below; click any column head
       <td>arXiv preprint ArXiv:2502.11528</td>
     </tr>
     <tr>
+      <td><span class="has-tooltip"><em>Capturing Classic Authorial Style in Long-Form Story Generation with GRPO Fine-Tuning</em><span class="tooltip">Evaluating and optimising authorial style in long-form story generation remains challenging because style is often assessed with ad hoc prompting and is frequently conflated with overall writing quality. We propose a two-stage pipeline. First, we train a dedicated style-similarity judge by fine-tuning a sentence-transformer with authorship-verification supervision, and calibrate its similarity outputs into a bounded [0,1] reward. Second, we use this judge as the primary reward in Group Relative Policy Optimization (GRPO) to fine-tune an 8B story generator for style-conditioned writing, avoiding the accept/reject supervision required by Direct Preference Optimization (DPO). Across four target authors (Mark Twain, Jane Austen, Charles Dickens, Thomas Hardy), the GRPO-trained 8B model achieves higher style scores than open-weight baselines, with an average style score of 0.893 across authors. These results suggest that AV-calibrated reward modelling provides a practical mechanism for controllable style transfer in long-form generation under a moderate model size and training budget.</span></span></td>
+      <td>Jinlong Liu, Mark G. Lee, Mohammed Bahja, and Venelin Kovatchev</td>
+      <td><a href="https://aclanthology.org/2026.conll-main.31/">link</a></td>
+      <td>2026</td>
+      <td>CoNLL</td>
+    </tr>
+    <tr>
       <td><span class="has-tooltip"><em>RECAP: Retrieval-enhanced context-aware prefix encoder for personalized dialogue response generation</em><span class="tooltip">Endowing chatbots with a consistent persona is essential to an engaging conversation, yet it remains an unresolved challenge. In this work, we propose a new retrieval-enhanced approach for personalized response generation. Specifically, we design a hierarchical transformer retriever trained on dialogue domain data to perform personalized retrieval and a context-aware prefix encoder that fuses the retrieved information to the decoder more effectively. Extensive experiments on a real-world dataset demonstrate the effectiveness of our model at generating more fluent and personalized responses. We quantitatively evaluate our model’s performance under a suite of human and automatic metrics and find it to be superior compared to state-of-the-art baselines on English Reddit conversations.</span></span></td>
       <td>Shuai Liu, Hyundong Cho, Marjorie Freedman, Xuezhe Ma, and Jonathan May</td>
       <td><a href="https://doi.org/10.18653/v1/2023.acl-long.468">link</a></td>
@@ -1073,6 +1080,13 @@ To filter the table, start typing in the search box below; click any column head
       <td><a href="https://doi.org/10.18653/v1/2020.coling-main.65">link</a></td>
       <td>2020</td>
       <td>COLING, pages 745–756</td>
+    </tr>
+    <tr>
+      <td><span class="has-tooltip"><em>Distinguishing Fictional Voices: a Study of Authorship Verification Models for Quotation Attribution</em><span class="tooltip">Recent approaches to automatically detect the speaker of an utterance of direct speech often disregard general information about characters in favor of local information found in the context, such as surrounding mentions of entities. In this work, we explore stylistic representations of characters built by encoding their quotes with off-the-shelf pretrained Authorship Verification models in a large corpus of English novels (the Project Dialogism Novel Corpus). Results suggest that the combination of stylistic and topical information captured in some of these models accurately distinguish characters among each other, but does not necessarily improve over semantic-only models when attributing quotes. However, these results vary across novels and more investigation of stylometric models particularly tailored for literary texts and the study of characters should be conducted.</span></span></td>
+      <td>Gaspard Michel, Elena Epure, Romain Hennequin, and Christophe Cerisara</td>
+      <td><a href="https://aclanthology.org/2024.latechclfl-1.15/">link</a></td>
+      <td>2024</td>
+      <td>LaTeCH-CLfL 2024, pages 160–171</td>
     </tr>
     <tr>
       <td><span class="has-tooltip"><em>Stranger than paradigms word embedding benchmarks don't align with morphology</em><span class="tooltip">PLACEHOLDER</span></span></td>
@@ -1283,6 +1297,13 @@ To filter the table, start typing in the search box below; click any column head
       <td><a href="https://ceur-ws.org/Vol-1179/CLEF2013wn-PAN-RangelEt2013.pdf">link</a></td>
       <td>2013</td>
       <td>CLEF</td>
+    </tr>
+    <tr>
+      <td><span class="has-tooltip"><em>CAVE: Controllable Authorship Verification Explanations</em><span class="tooltip">Authorship Verification (AV) (do two documents have the same author?) is essential in many real-life applications. AV is often used in privacy-sensitive domains that require an offline proprietary model that is deployed on premises, making publicly served online models (APIs) a suboptimal choice. Current offline AV models however have lower downstream utility due to limited accuracy (eg: traditional stylometry AV systems) and lack of accessible post-hoc explanations. In this work, we address the above challenges by developing a trained, offline model CAVE (Controllable Authorship Verification Explanations). CAVE generates free-text AV explanations that are controlled to be (1) accessible (uniform structure that can be decomposed into sub-explanations grounded to relevant linguistic features), and (2) easily verified for explanation-label consistency. We generate silver-standard training data grounded to the desirable linguistic features by a prompt-based method Prompt-CAVE. We then filter the data based on rationale-label consistency using a novel metric Cons-R-L. Finally, we fine-tune a small, offline model (Llama-3-8B) with this data to create our model CAVE. Results on three difficult AV datasets show that CAVE generates high quality explanations (as measured by automatic and human evaluation) as well as competitive task accuracy.</span></span></td>
+      <td>Sahana Ramnath, Kartik Pandey, Elizabeth Boschee, and Xiang Ren</td>
+      <td><a href="https://aclanthology.org/2025.naacl-long.451/">link</a></td>
+      <td>2025</td>
+      <td>NAACL, pages 8939–8961</td>
     </tr>
     <tr>
       <td><span class="has-tooltip"><em>Dear sir or madam, may I introduce the GYAFC dataset: Corpus, benchmarks and metrics for formality style transfer</em><span class="tooltip">Style transfer is the task of automatically transforming a piece of text in one particular style into another. A major barrier to progress in this field has been a lack of training and evaluation datasets, as well as benchmarks and automatic metrics. In this work, we create the largest corpus for a particular stylistic transfer (formality) and show that techniques from the machine translation community can serve as strong baselines for future work. We also discuss challenges of using automatic metrics.</span></span></td>

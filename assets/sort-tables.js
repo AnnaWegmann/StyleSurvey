@@ -46,15 +46,11 @@
 
       const tbody = table.tBodies[0] || table;
 
-      // Build a per-row search string that excludes tooltip/abstract text.
-      // Tooltips are rendered inside `<span class="tooltip">…</span>` — their
-      // content (paper abstracts) contains phrases like "Devlin et al." that
-      // would otherwise pollute searches over titles/authors/venues.
+      // Build a per-row search string, including tooltip/abstract text so
+      // searches also match words that only appear in a paper's abstract.
       const rowSearchText = new WeakMap();
       function indexRow(row) {
-        const clone = row.cloneNode(true);
-        clone.querySelectorAll(".tooltip").forEach((n) => n.remove());
-        rowSearchText.set(row, clone.textContent.toLowerCase());
+        rowSearchText.set(row, row.textContent.toLowerCase());
       }
       Array.from(tbody.querySelectorAll("tr")).forEach(indexRow);
 
