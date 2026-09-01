@@ -61,15 +61,15 @@
 
 ## Huggingface Models
 
-| Model | Model Link | Publication | 
-| ----- | ---------- | ----------- |
-| CISR | <https://huggingface.co/AnnaWegmann/Style-Embedding> | <https://aclanthology.org/2022.repl4nlp-1.26/> |
-| StyleDistance | <https://huggingface.co/StyleDistance/styledistance> | <https://aclanthology.org/2025.naacl-long.436/> |
-| mStyleDistance | <https://huggingface.co/StyleDistance/mstyledistance> | <https://aclanthology.org/2025.findings-acl.869/> |
-| LUAR | <https://huggingface.co/rrivera1849/LUAR-MUD> | <https://aclanthology.org/2021.emnlp-main.70/> |
-| Multilingual Style Representation | <https://huggingface.co/Blablablab/multilingual-style-representation-Llama-3.2> | <https://aclanthology.org/2025.emnlp-main.1766/> |
-| STAR | <https://huggingface.co/AIDA-UPM/star> | <https://doi.org/10.1016/j.knosys.2024.111867> |
-| StyleJudge (style-similarity judge / GRPO reward model) | <https://huggingface.co/VibrantVista/gte-large-en-v1.5-stylejudge> | <https://aclanthology.org/2026.conll-main.31/> |
+| Model | Model Link | Publication | Notes                               |
+| ----- | ---------- | ----------- |-------------------------------------|
+| CISR | <https://huggingface.co/AnnaWegmann/Style-Embedding> | <https://aclanthology.org/2022.repl4nlp-1.26/> |                                     |
+| StyleDistance | <https://huggingface.co/StyleDistance/styledistance> | <https://aclanthology.org/2025.naacl-long.436/> |                                     |
+| mStyleDistance | <https://huggingface.co/StyleDistance/mstyledistance> | <https://aclanthology.org/2025.findings-acl.869/> |                                     |
+| LUAR | <https://huggingface.co/rrivera1849/LUAR-MUD> | <https://aclanthology.org/2021.emnlp-main.70/> |                                     |
+| Multilingual Style Representation | <https://huggingface.co/Blablablab/multilingual-style-representation-Llama-3.2> | <https://aclanthology.org/2025.emnlp-main.1766/> |                                     |
+| STAR | <https://huggingface.co/AIDA-UPM/star> | <https://doi.org/10.1016/j.knosys.2024.111867> |                                     |
+| StyleJudge  | <https://huggingface.co/VibrantVista/gte-large-en-v1.5-stylejudge> | <https://aclanthology.org/2026.conll-main.31/> | trained for as as GRPO reward model |
 
 ## Other Models
 
@@ -98,6 +98,3 @@
 | Does It Capture STEL? A Modular, Similarity-based Linguistic Style Evaluation Framework | <https://github.com/nlpsoc/STEL> | |
 | On the State of the Art in Authorship Attribution and Authorship Verification | <https://github.com/JacobTyo/Valla> | |
 | Capturing Classic Authorial Style in Long-Form Story Generation with GRPO Fine-Tuning | <https://github.com/Vince-Liuss/literary_style_model> | Style-conditioned long-form story generation: trains a style-similarity judge on authorship-verification data, then uses it as a GRPO reward to fine-tune an 8B generator; four per-author models (Twain, Austen, Dickens, Hardy) on [HuggingFace](https://huggingface.co/VibrantVista) |
-| Distinguishing Fictional Voices: a Study of Authorship Verification Models for Quotation Attribution | <https://github.com/deezer/quote_AV> | Encodes quotes of fictional characters in English novels (Project Dialogism Novel Corpus) with pretrained authorship-verification models to attribute quotations to characters |
-| Addressing Topic Leakage in Cross-Topic Evaluation for Authorship Verification | <https://github.com/jitkapat/hits_authorship> | Heterogeneity-Informed Topic Sampling (HITS): builds evaluation sets with heterogeneously distributed topics to avoid topic leakage in cross-topic authorship-verification evaluation; includes the RAVEN benchmark for detecting topic-shortcut reliance |
-
