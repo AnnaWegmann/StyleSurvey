@@ -2,8 +2,8 @@
 
 # Predefined features (stylometry)
 
-"There is no fixed, general set of most discriminative features, although n-grams are often used due to ease of implementation and coverage across linguistic levels. The right features depend on various factors, including the data (e.g., genre, length), task (e.g., authorship, machine text detection), and required computational efficiency. There are numerous feature extractions tools available, some of which have been developed specifically for such factors. We recommend reviewing previous work related to your data/task and testing different features on a heldout validation subset to determine which features
-discriminate best." from our survey article [(Wegmann et al., 2026)](https://annawegmann.github.io/pdf/Style_Survey_preprint.pdf)
+*"There is no fixed, general set of most discriminative features, although n-grams are often used due to ease of implementation and coverage across linguistic levels. The right features depend on various factors, including the data (e.g., genre, length), task (e.g., authorship, machine text detection), and required computational efficiency. There are numerous feature extractions tools available, some of which have been developed specifically for such factors. We recommend reviewing previous work related to your data/task and testing different features on a heldout validation subset to determine which features
+discriminate best."* from our survey article [(Wegmann et al., 2026)](https://annawegmann.github.io/pdf/Style_Survey_preprint.pdf)
 
 ## Python tools
 
