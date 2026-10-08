@@ -1705,6 +1705,13 @@ To filter the table, start typing in the search box below; click any column head
       <td>2019</td>
       <td>ICIAI '19: Proceedings of the 2019 3rd International Conference on Innovation in Artificial Intelligence: 69-72</td>
     </tr>
+    <tr>
+      <td><span class="has-tooltip"><em>From theories on styles to their transfer in text: Bridging the gap with a hierarchical survey</em><span class="tooltip">Humans are naturally endowed with the ability to write in a particular style. They can, for instance, rephrase a formal letter in an informal way, convey a literal message with the use of figures of speech or edit a novel by mimicking the style of some well-known authors. Automating this form of creativity constitutes the goal of style transfer. As a natural language generation task, style transfer aims at rewriting existing texts, and specifically, it creates paraphrases that exhibit some desired stylistic attributes. From a practical perspective, it envisions beneficial applications, like chatbots that modulate their communicative style to appear empathetic, or systems that automatically simplify technical articles for a non-expert audience. Several style-aware paraphrasing methods have attempted to tackle style transfer. A handful of surveys give a methodological overview of the field, but they do not support researchers to focus on specific styles. With this paper, we aim at providing a comprehensive discussion of the styles that have received attention in the transfer task. We organize them in a hierarchy, highlighting the challenges for the definition of each of them and pointing out gaps in the current research landscape. The hierarchy comprises two main groups. One encompasses styles that people modulate arbitrarily, along the lines of registers and genres. The other group corresponds to unintentionally expressed styles, due to an author’s personal characteristics. Hence, our review shows how these groups relate to one another and where specific styles, including some that have not yet been explored, belong in the hierarchy. Moreover, we summarize the methods employed for different stylistic families, hinting researchers towards those that would be the most fitting for future research.</span></span></td>
+      <td>Enrica Troiano, Aswathy Velutharambath, and Roman Klinger</td>
+      <td><a href="https://doi.org/10.1017/S1351324922000407">link</a></td>
+      <td>2023</td>
+      <td>Natural Language Engineering 29(4): 849-908</td>
+    </tr>
   </tbody>
 </table>
 
